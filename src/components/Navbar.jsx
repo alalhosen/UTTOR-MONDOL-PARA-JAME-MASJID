@@ -43,7 +43,10 @@ const Navbar = () => {
             {navLinks}
           </ul>
         </div>
-        <a className="text-2xl text-green-500 font-extrabold"><span className="text-red-500 text-3xl ">উ</span>ত্তর মন্ডল পাড়া জামে মসজিদ</a>
+        <a className="text-2xl text-green-500 font-extrabold">
+          <span className="text-red-500 text-3xl ">উ</span>ত্তর মন্ডল পাড়া জামে
+          মসজিদ
+        </a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navLinks}</ul>
