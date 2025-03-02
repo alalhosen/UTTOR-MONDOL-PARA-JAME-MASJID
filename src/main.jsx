@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./components/Root.jsx";
 import Connection from "./components/Connection.jsx";
 import Gallery from "./components/Gallery.jsx";
+import Home from "./components/Home.jsx";
 
 const router = createBrowserRouter([
   {
@@ -13,11 +14,15 @@ const router = createBrowserRouter([
     element: <Root></Root>,
     children:[
       {
-        path: "/gallery",
+        path: "/",
+        element: <Home></Home>
+      },
+      {
+        path: "/গ্যালারী",
         element: <Gallery></Gallery>
       },
       {
-        path: "/connection",
+        path: "/যোগাযোগ",
         element: <Connection></Connection>
       }
     ]
