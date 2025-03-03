@@ -1,7 +1,9 @@
 const Home = () => {
+
+
   return (
     <div
-      className="hero min-h-screen"
+      className="hero min-h-screen mt-9 rounded-xl"
       style={{
         backgroundImage:
           "url(https://i.ibb.co.com/spy78vbc/famous-abu-dhabi-sheikh-zayed-mosque.jpg)",
