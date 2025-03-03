@@ -174,22 +174,24 @@ const Ramadan = () => {
         </div>
       </div>
 
-
       <div>
-        <div className="hero bg-base-100 min-h-screen mt-12 border-none lg:border-solid border-2 border-purple-200 rounded-2xl">
-          <div className="hero-content flex-col lg:flex-row-reverse">
-            <img
-              src="https://i.ibb.co.com/cKyLXHgS/1.jpg"
-              className="max-w-sm rounded-lg shadow-2xl"
-            />
-            <div>
-              <h1 className="text-5xl font-bold">Box Office News!</h1>
-              <p className="py-6">
-                Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                assumenda excepturi exercitationem quasi. In deleniti eaque aut
-                repudiandae et a id nisi.
-              </p>
-              <button className="btn btn-primary">Get Started</button>
+        <div className="mt-12 border-none lg:border-solid border-2 border-purple-200 rounded-2xl">
+          <p className="text-5xl text-center mt-8 text-gray-600 font-extrabold">সাহরি ও ইফতারের সময়সূচীঃ</p>
+          <div className="hero bg-base-100 min-h-screen ">
+            <div className="hero-content flex-col lg:flex-row-reverse">
+              <img
+                src="https://i.ibb.co.com/cKyLXHgS/1.jpg"
+                className="max-w-sm rounded-lg shadow-2xl"
+              />
+              <div>
+                <h1 className="text-4xl font-bold">সাহরি ও ইফতারের সময়সূচী!</h1>
+                <p className="py-6">
+                  Provident cupiditate voluptatem et in. Quaerat fugiat ut
+                  assumenda excepturi exercitationem quasi. In deleniti eaque
+                  aut repudiandae et a id nisi.
+                </p>
+                <button className="btn btn-primary">Get Started</button>
+              </div>
             </div>
           </div>
         </div>
