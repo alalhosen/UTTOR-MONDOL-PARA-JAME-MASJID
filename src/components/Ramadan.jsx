@@ -176,7 +176,7 @@ const Ramadan = () => {
 
 
       <div>
-        <div className="hero bg-base-100 min-h-screen mt-12 border-solid border-2 border-purple-200 rounded-2xl">
+        <div className="hero bg-base-100 min-h-screen mt-12 border-none lg:border-solid border-2 border-purple-200 rounded-2xl">
           <div className="hero-content flex-col lg:flex-row-reverse">
             <img
               src="https://i.ibb.co.com/cKyLXHgS/1.jpg"
@@ -195,10 +195,10 @@ const Ramadan = () => {
         </div>
         <br />
 
-        <div className="hero bg-base-200 min-h-screen border-dotted border-4  border-lime-400 rounded-2xl m-">
+        <div className="hero bg-base-200 min-h-screen border-none lg:border-dotted border-4  border-lime-400 rounded-2xl m-">
           <div className="hero-content flex-col lg:flex-row">
             <img
-              src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
+              src="https://i.ibb.co.com/vCZrTyNm/2.jpg"
               className="max-w-sm rounded-lg shadow-2xl"
             />
             <div>
