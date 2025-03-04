@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+// import { FaMosque } from "react-icons/fa6";
 
 const Navbar = () => {
   const navLinks = (
@@ -50,6 +51,7 @@ const Navbar = () => {
           <span className="text-red-600 text-sm lg:text-4xl pt-2">উ</span>ত্তর মন্ডল পাড়া জামে
           মসজিদ
         </a>
+        
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navLinks}</ul>

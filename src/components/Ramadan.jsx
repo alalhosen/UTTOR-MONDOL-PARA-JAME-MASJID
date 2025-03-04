@@ -1,6 +1,11 @@
 const Ramadan = () => {
   return (
-    <div>
+    <div className="mt-16">
+      <div className="flex space-x-3 font-extrabold text-center">
+        <p>১৪৪৬ হিজরি</p>
+        <p className="px-24 underline">আল্লাহ মহান</p>
+        <p>২০২৫ খ্রিস্টাব্দ</p>
+      </div>
       <div>
         <div className="mt-9 mb-4">
           <p className="text-3xl bg-lime-400 text-center font-extrabold text-orange-500 p-4 mx-5 rounded-se-full rounded-ss-full hover:text-slate-100">
@@ -176,9 +181,9 @@ const Ramadan = () => {
 
       <div>
         {/* 1111111111111111111111111111111111111111111111 */}
-    
-        <div className="mt-16 border-none lg:border-solid border-2 border-purple-200 rounded-2xl">
-          <p className="text-5xl text-center mt-8 text-gray-600 font-extrabold">
+
+        <div className="mt-16 m-2 border-none lg:border-solid border-2 border-purple-200 rounded-2xl">
+          <p className="text-5xl text-center pt-12 -mb-8 text-gray-600 font-extrabold">
             সাহরি ও ইফতারের সময়সূচীঃ
           </p>
           <div className="hero bg-base-100 min-h-screen ">
@@ -188,7 +193,9 @@ const Ramadan = () => {
                 className="max-w-sm rounded-lg shadow-2xl"
               />
               <div className="bg-pink-300 lg:p-24 rounded-ee-full rounded-ss-full">
-                <h1 className="text-4xl font-bold text-center">সাহরি ও ইফতারের সময়সূচী!</h1>
+                <h1 className="text-4xl font-bold text-center">
+                  সাহরি ও ইফতারের সময়সূচী!
+                </h1>
                 <p className="py-6">
                   ইসলামের পথে ফিরে আসুন। হে আল্লাহ আমাদের সকল মুসলিম ভাই-বোনদের
                   ইসলামের প্রতিটি নিয়ম-কানুন মেনে চলার তৌফিক দান করুন।
@@ -204,9 +211,9 @@ const Ramadan = () => {
         <br />
 
         {/* 222222222222222222222222222222222222222222222 */}
-        <div className=" border-none mt-16 lg:border-dotted border-4  border-lime-400 rounded-2xl">
-        <p className="text-5xl text-center mt-8 text-green-400 font-extrabold">
-         পবিত্র মাহে রমজান
+        <div className=" border-none mt-16 m-2 lg:border-dotted border-4  border-lime-400 rounded-2xl">
+          <p className="text-5xl text-center mt-12 text-green-400 font-extrabold">
+            পবিত্র মাহে রমজান
           </p>
           <div className="hero bg-base-100 min-h-screen">
             <div className="hero-content flex-col lg:flex-row">
@@ -215,7 +222,9 @@ const Ramadan = () => {
                 className="max-w-sm rounded-lg shadow-2xl"
               />
               <div className="bg-purple-500 p-6 text-center lg:p-24 rounded-s-full">
-                <h1 className="text-4xl font-bold">পবিত্র মাহে রমজানের শুভেচ্ছা</h1>
+                <h1 className="text-4xl font-bold">
+                  পবিত্র মাহে রমজানের শুভেচ্ছা
+                </h1>
                 <p className="py-6">
                   Provident cupiditate voluptatem et in. Quaerat fugiat ut
                   assumenda excepturi exercitationem quasi. In deleniti eaque
@@ -227,7 +236,7 @@ const Ramadan = () => {
             </div>
           </div>
         </div>
-{/* 333333333333333333333333333333333 */}
+        {/* 333333333333333333333333333333333 */}
         <div className="mt-12 border-none lg:border-solid border-2 border-purple-200 rounded-2xl">
           <p className="text-5xl text-center mt-8 text-gray-600 font-extrabold">
             সাহরি ও ইফতারের সময়সূচীঃ
