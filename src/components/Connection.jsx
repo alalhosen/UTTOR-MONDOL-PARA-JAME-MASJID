@@ -8,7 +8,7 @@ const Connection = () => {
       <div>
         <h1 className="text-5xl font-bold">ইমাম</h1>
         <h2>হাফেজ মোঃ হাবিবুল্লা ইসলাম</h2>
-        <p className="py-6">
+        <p className="py-6 bg-red-300 rounded-2xl">
   একজন ভাল ইমাম হতে হলে যা যা গুণ থাকা দরকার- সব গুণ তিনার মধ্যে আছে।
         </p>
         <button className="btn btn-primary">বিস্তারিত জানতে</button>
