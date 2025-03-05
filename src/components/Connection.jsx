@@ -7,6 +7,7 @@ const Connection = () => {
         className="max-w- rounded-full shadow-xl" />
       <div>
         <h1 className="text-5xl font-bold">ইমাম</h1>
+        <h2>হাফেজ মোঃ হাবিবুল্লা ইসলাম</h2>
         <p className="py-6">
           Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
           quasi. In deleniti eaque aut repudiandae et a id nisi.
