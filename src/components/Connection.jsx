@@ -11,7 +11,7 @@ const Connection = () => {
         <p className="py-6">
   একজন ভাল ইমাম হতে হলে যা যা গুণ থাকা দরকার- সব গুণ তিনার মধ্যে আছে।
         </p>
-        <button className="btn btn-primary">Get Started</button>
+        <button className="btn btn-primary">বিস্তারিত জানতে</button>
       </div>
     </div>
   </div>
