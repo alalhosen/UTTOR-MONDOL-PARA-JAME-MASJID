@@ -10,7 +10,7 @@ const Connection = () => {
           <h1 className="text-6xl font-bold mb-8">ইমাম</h1>
           <h2 className="text-4xl">হাফেজ মোঃ হাবিবুল্লা ইসলাম</h2>
           <p className="py-6 bg-red-200 rounded-2xl px-2 my-8">
-            একজন ভাল ইমাম হতে হলে যা যা গুণাগুণ থাকা দরকার- সব গুণাগুণ তিনার মধ্যে আছে।
+            একজন ভাল ইমাম হতে হলে যা যা গুণাগুণ থাকা দরকার- সব গুণাগুণ তিনার মধ্যে আছে। 
           </p>
           <button className="btn btn-primary">বিস্তারিত জানতে</button>
         </div>
