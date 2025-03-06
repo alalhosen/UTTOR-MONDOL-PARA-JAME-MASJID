@@ -5,7 +5,7 @@ const Home = () => {
         className="hero min-h-screen mt-9 rounded-xl"
         style={{
           backgroundImage:
-            "url(https://i.ibb.co.com/spy78vbc/famous-abu-dhabi-sheikh-zayed-mosque.jpg)",
+            "url(https://i.ibb.co.com/hFXzcBwS/IMG-20250302-134402.jpg)",
         }}
       >
         {/* <div className="hero-overlay"></div> */}
