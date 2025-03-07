@@ -11,11 +11,11 @@ const Home = () => {
         {/* <div className="hero-overlay"></div> */}
         <div className="hero-content text-neutral-content text-center -mt-20">
           <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-            <p className="mb-5">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+            <h1 className="text-gray-200 mb-5 text-5xl font-bold">Welcome to our website</h1>
+            <p className="text-xl font-bold text-lime-300">
+            May Allah grant all of us the taufiq to be a masque.
             </p>
-            <button className="btn btn-primary">Get Started</button>
+            <button className="btn btn-primary mt-4">Get Started</button>
           </div>
         </div>
       </div>

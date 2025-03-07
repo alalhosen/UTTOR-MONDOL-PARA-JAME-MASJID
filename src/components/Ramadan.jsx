@@ -1,10 +1,12 @@
 const Ramadan = () => {
   return (
     <div className="mt-16">
-      <div className="flex space-x-3 font-extrabold text-center">
-        <p>১৪৪৬ হিজরি</p>
-        <p className="px-24 underline">আল্লাহ মহান</p>
-        <p>২০২৫ খ্রিস্টাব্দ</p>
+      <div className="text-center text-amber-600 pl-6 lg:pl-12">
+        <div className="flex space-x-3 font-extrabold text-center">
+          <p>১৪৪৬ হিজরি</p>
+          <p className="px-24 underline">আল্লাহ মহান</p>
+          <p>২০২৫ খ্রিস্টাব্দ</p>
+        </div>
       </div>
       <div>
         <div className="mt-9 mb-4">
@@ -179,18 +181,21 @@ const Ramadan = () => {
         </div>
       </div>
 
+      <div className="border-dotted border-2 border-gray-500 w-full mx-4 my-4"></div>
+
+
       <div>
         {/* 1111111111111111111111111111111111111111111111 */}
 
         <div className="mt-16 m-2 border-none lg:border-solid border-2 border-purple-200 rounded-2xl">
-          <p className="text-5xl text-center pt-12 -mb-8 text-gray-600 font-extrabold">
+          <p className="text-5xl text-center pt-12 text-gray-600 font-extrabold">
             সাহরি ও ইফতারের সময়সূচীঃ
           </p>
           <div className="hero bg-base-100 min-h-screen ">
             <div className="hero-content flex-col lg:flex-row-reverse">
               <img
                 src="https://i.ibb.co.com/cKyLXHgS/1.jpg"
-                className="max-w-sm rounded-lg shadow-2xl"
+                className="max-w-sm rounded-lg shadow-2xl mt-4"
               />
               <div className="bg-pink-300 lg:p-24 rounded-ee-full rounded-ss-full">
                 <h1 className="text-4xl font-bold text-center">
@@ -208,7 +213,7 @@ const Ramadan = () => {
             </div>
           </div>
         </div>
-        <br />
+        <div className="border-dashed border-2 border-purple-500 w-full mx-4 my-4"></div>
 
         {/* 222222222222222222222222222222222222222222222 */}
         <div className=" border-none mt-16 m-2 lg:border-dotted border-4  border-lime-400 rounded-2xl">
@@ -236,6 +241,7 @@ const Ramadan = () => {
             </div>
           </div>
         </div>
+
         {/* 333333333333333333333333333333333 */}
         <div className="mt-12 border-none lg:border-solid border-2 border-purple-200 rounded-2xl">
           <p className="text-5xl text-center mt-8 text-gray-600 font-extrabold">
