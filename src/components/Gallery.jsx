@@ -1,7 +1,7 @@
 const Gallery = () => {
   return (
     <div className="px-4">
-      <p className="text-green-500 font-bold">সমগ্র ছবির ভান্ডারলঃ</p>
+      <p className="text-green-500 font-bold pl-5">সমগ্র ছবির ভান্ডারলঃ</p>
       <section className="py-6 dark:bg-gray-100 dark:text-gray-900">
         <div className="container grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4">
           <img

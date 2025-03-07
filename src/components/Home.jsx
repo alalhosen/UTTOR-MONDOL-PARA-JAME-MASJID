@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <div>
+    <div className="px-4">
       <div
         className="hero min-h-screen mt-9 rounded-xl"
         style={{
