@@ -194,7 +194,7 @@ const Ramadan = () => {
           <div className="hero bg-base-100 min-h-screen ">
             <div className="hero-content flex-col lg:flex-row-reverse">
               <img
-                src="https://i.ibb.co.com/cKyLXHgS/1.jpg"
+                src="https://i.ibb.co.com/9kcR1Ggw/1.jpg"
                 className="max-w-sm rounded-lg shadow-2xl mt-4"
               />
               <div className="bg-pink-300 lg:p-24 rounded-ee-full rounded-ss-full">
