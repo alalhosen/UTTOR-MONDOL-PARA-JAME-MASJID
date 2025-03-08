@@ -21,6 +21,9 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+
+
       <div>
         <div className="carousel w-full mt-20">
           <div id="slide1" className="carousel-item relative w-full">
@@ -91,8 +94,7 @@ const Home = () => {
               <h1 className="text-5xl font-bold">Box Office News!</h1>
               <p className="py-6">
                 Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                assumenda excepturi exercitationem quasi. In deleniti eaque aut
-                repudiandae et a id nisi.
+              
               </p>
               <button className="btn btn-primary">Get Started</button>
             </div>
@@ -100,9 +102,9 @@ const Home = () => {
         </div>
       </div>
 
-{/* video video video video video video video video video  */}
+      {/* video video video video video video video video video  */}
 
-{/* 111111111111111 */}
+      {/* 111111111111111 */}
       <div className="pl-4">
         <p>আহমদুল্লার রমজানের ওয়াজ জানতে ক্লিক </p>
         <iframe
@@ -115,7 +117,6 @@ const Home = () => {
           allowfullscreen
         ></iframe>
       </div>
-
 
       {/* 22222222222222222 */}
 
