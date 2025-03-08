@@ -11,9 +11,11 @@ const Home = () => {
         {/* <div className="hero-overlay"></div> */}
         <div className="hero-content text-neutral-content text-center -mt-20">
           <div className="max-w-md">
-            <h1 className="text-gray-200 mb-5 text-5xl font-bold">Welcome to our website</h1>
+            <h1 className="text-gray-200 mb-5 text-5xl font-bold">
+              Welcome to our website
+            </h1>
             <p className="text-xl font-bold text-lime-300">
-            May Allah grant all of us the taufiq to be a masque.
+              May Allah grant all of us the taufiq to be a masque.
             </p>
             <button className="btn btn-primary mt-4">Get Started</button>
           </div>
@@ -96,6 +98,19 @@ const Home = () => {
             </div>
           </div>
         </div>
+      </div>
+
+{/* video video video video video video video video video  */}
+      <div>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/AxkRp3yHiVU?si=K97uN05XGxYwmP_Z"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
       </div>
     </div>
   );
