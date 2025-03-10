@@ -22,6 +22,7 @@ const Home = () => {
         </div>
       </div>
 
+      {/* Home page slide     Home page slide */}
       <div>
         <div className="carousel w-full mt-20">
           <div id="slide1" className="carousel-item relative w-full">
@@ -81,32 +82,31 @@ const Home = () => {
             </div>
           </div>
         </div>
+      </div>
 
-        <div className="hero bg-base-200 min-h-screen">
-          <div className="hero-content flex-col lg:flex-row-reverse">
-            <img
-              src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
-              className="max-w-sm rounded-lg shadow-2xl"
-            />
-            <div className="bg-lime-400">
-              <h1 className="text-5xl font-bold">রোজার বিধিনিষেধ</h1>
-              <p className="py-6">
-                <ul>বিধিনিষেধ</ul>
+
+      <div className="hero bg-gray-200 my-20 rounded-2xl min-h-screen">
+        <div className="hero-content flex-col lg:flex-row-reverse">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
+            className="max-w-2xl rounded-lg shadow-2xl"
+          />
+          <div className="bg-lime-400 p-4 rounded-xl ">
+            <h1 className="text-5xl text-center font-bold">রোজার বিধিনিষেধ</h1>
+            <p className="py-4 p-20 text-lg lg:text-3xl font-bold">
+              <ul className=" ">বিধিনিষেধ</ul>
+              <li>
+                দেহগহ্বরের মধ্যে কোনো কিছু প্রবেশ করা থেকে বিরত থাকা;
+                <li>যৌন ক্রিয়াকলাপে জড়ানো থেকে বিরত থাকা;</li>
+                <li>পরনিন্দার মতো অনৈতিক কাজ থেকে বিরত থাকা;</li>
                 <li>
-                  দেহগহ্বরের মধ্যে কোনো কিছু প্রবেশ করা থেকে বিরত থাকা;
-                  <li>যৌন ক্রিয়াকলাপে জড়ানো থেকে বিরত থাকা;</li>
-                  <li>পরনিন্দার মতো অনৈতিক কাজ থেকে বিরত থাকা;</li>
-                  <li>
-                    সূর্যোদয় থেকে সূর্যাস্ত পর্যন্ত পানাহার থেকে বিরত থাকা ;
-                  </li>
-                  <li>উপবাস বা রোজার নিয়তের সহিত থাকা ;</li>
-                  <li>
-                    উপবাসের জন্য অনুমোদিত ব্যক্তিদের নৈকট্য থেকে বিরত থাকা।
-                  </li>
+                  সূর্যোদয় থেকে সূর্যাস্ত পর্যন্ত পানাহার থেকে বিরত থাকা ;
                 </li>
-              </p>
-              <button className="btn btn-primary">Get Started</button>
-            </div>
+                <li>উপবাস বা রোজার নিয়তের সহিত থাকা ;</li>
+                <li>উপবাসের জন্য অনুমোদিত ব্যক্তিদের নৈকট্য থেকে বিরত থাকা।</li>
+              </li>
+            </p>
+            <button className="btn btn-primary">Get Started</button>
           </div>
         </div>
       </div>
