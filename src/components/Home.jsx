@@ -25,91 +25,101 @@ const Home = () => {
       </div>
 
       {/* Home page slide     Home page slide */}
-      <div>
-        <div className="carousel w-full mt-20">
-          <div id="slide1" className="carousel-item relative w-full">
-            <img
-              src="https://i.ibb.co.com/23wNJDZT/IMG-20250302-134226.jpg"
-              className="w-full"
-            />
-            <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-              <a href="#slide4" className="btn btn-circle">
-                ❮
-              </a>
-              <a href="#slide2" className="btn btn-circle">
-                ❯
-              </a>
-            </div>
+
+      <div className="carousel w-[100%] h-[100%]  mt-20 rounded-2xl">
+        <div id="slide1" className="carousel-item relative w-full">
+          <img
+            src="https://i.ibb.co.com/23wNJDZT/IMG-20250302-134226.jpg"
+            className="w-full"
+          />
+          <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide4" className="btn btn-circle">
+              ❮
+            </a>
+            <a href="#slide2" className="btn btn-circle">
+              ❯
+            </a>
           </div>
-          <div id="slide2" className="carousel-item relative w-full">
-            <img
-              src="https://i.ibb.co.com/0RVmsPTH/IMG-20250302-134819.jpg"
-              className="w-full"
-            />
-            <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-              <a href="#slide1" className="btn btn-circle">
-                ❮
-              </a>
-              <a href="#slide3" className="btn btn-circle">
-                ❯
-              </a>
-            </div>
+        </div>
+        <div id="slide2" className="carousel-item relative w-full">
+          <img
+            src="https://i.ibb.co.com/0RVmsPTH/IMG-20250302-134819.jpg"
+            className="w-full"
+          />
+          <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide1" className="btn btn-circle">
+              ❮
+            </a>
+            <a href="#slide3" className="btn btn-circle">
+              ❯
+            </a>
           </div>
-          <div id="slide3" className="carousel-item relative w-full">
-            <img
-              src="https://i.ibb.co.com/Z6Htp4Y9/IMG-20250302-134619.jpg"
-              className="w-full"
-            />
-            <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-              <a href="#slide2" className="btn btn-circle">
-                ❮
-              </a>
-              <a href="#slide4" className="btn btn-circle">
-                ❯
-              </a>
-            </div>
+        </div>
+        <div id="slide3" className="carousel-item relative w-full">
+          <img
+            src="https://i.ibb.co.com/Z6Htp4Y9/IMG-20250302-134619.jpg"
+            className="w-full"
+          />
+          <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide2" className="btn btn-circle">
+              ❮
+            </a>
+            <a href="#slide4" className="btn btn-circle">
+              ❯
+            </a>
           </div>
-          <div id="slide4" className="carousel-item relative w-full">
-            <img
-              src="https://i.ibb.co.com/hFXzcBwS/IMG-20250302-134402.jpg"
-              className="w-full"
-            />
-            <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-              <a href="#slide3" className="btn btn-circle">
-                ❮
-              </a>
-              <a href="#slide1" className="btn btn-circle">
-                ❯
-              </a>
-            </div>
+        </div>
+        <div id="slide4" className="carousel-item relative w-full">
+          <img
+            src="https://i.ibb.co.com/hFXzcBwS/IMG-20250302-134402.jpg"
+            className="w-full"
+          />
+          <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide3" className="btn btn-circle">
+              ❮
+            </a>
+            <a href="#slide1" className="btn btn-circle">
+              ❯
+            </a>
           </div>
         </div>
       </div>
-      
+
       {/* Card  Card  Card  Card  Card  Card   */}
       <div className="hero bg-gray-200 my-20 rounded-2xl">
-        <p>রোজার বিধিনিষেধগুলো মেনে চলা প্রতিটি মুসলমানের উচিৎ।</p>
-        <div className="hero-content flex-col lg:flex-row-reverse">
-          <img
-            src="https://i.ibb.co.com/zVNpbyHj/image-18931-1707797104.jpg"
-            className=" w-3/4lg:max-w-2xl rounded-lg "
-          />
-          <div className="bg-lime-400 p-2 lg:p-12 rounded-xl my-12">
-            <h1 className="text-4xl text-center font-bold">রোজার বিধিনিষেধ</h1>
-            <p className="text-lg lg:text-xl font-bold">
-              <ul className="underline py-6 text-purple-600 text-2xl">বিধিনিষেধঃ-</ul>
-              <li>
-                দেহগহ্বরের মধ্যে কোনো কিছু প্রবেশ করা থেকে বিরত থাকা;
-                <li>যৌন ক্রিয়াকলাপে জড়ানো থেকে বিরত থাকা;</li>
-                <li>পরনিন্দার মতো অনৈতিক কাজ থেকে বিরত থাকা;</li>
-                <li>
-                  সূর্যোদয় থেকে সূর্যাস্ত পর্যন্ত পানাহার থেকে বিরত থাকা ;
-                </li>
-                <li>উপবাস বা রোজার নিয়তের সহিত থাকা ;</li>
-                <li>উপবাসের জন্য অনুমোদিত ব্যক্তিদের নৈকট্য থেকে বিরত থাকা।</li>
-              </li>
-            </p>
-         
+        <div>
+          <p className="text-xl lg:text-3xl p-8 font-bold text-center bg-pink-200 mt-8 rounded-full">
+            রোজার বিধিনিষেধগুলো মেনে চলা প্রতিটি মুসলমানের উচিৎ।
+          </p>
+          <div className="hero-content flex-col lg:flex-row-reverse">
+            <img
+              src="https://i.ibb.co.com/zVNpbyHj/image-18931-1707797104.jpg"
+              className=" w-3/4lg:max-w-2xl rounded-lg"
+            />
+            <div className="bg-lime-400 p-2 lg:p-12 rounded-xl my-12 font-bold">
+              <h1 className="text-2xl lg:text-3xl text-center">
+                রোজার বিধিনিষেধ
+              </h1>
+              <div>
+                <ul className="underline py-6 text-purple-600 text-2xl">
+                  বিধিনিষেধঃ-
+                </ul>
+                <div className=" lg:text-xl">
+                  <li>
+                    দেহগহ্বরের মধ্যে কোনো কিছু প্রবেশ করা থেকে বিরত থাকা;
+                    <li>যৌন ক্রিয়াকলাপে জড়ানো থেকে বিরত থাকা;</li>
+                    <li>পরনিন্দার মতো অনৈতিক কাজ থেকে বিরত থাকা;</li>
+                    <li>
+                      সূর্যোদয় থেকে সূর্যাস্ত পর্যন্ত পানাহার থেকে বিরত থাকা ;
+                    </li>
+                    <li>উপবাস বা রোজার নিয়তের সহিত থাকা ;</li>
+                    <li>
+                      উপবাসের জন্য অনুমোদিত ব্যক্তিদের নৈকট্য থেকে বিরত থাকা।
+                    </li>
+                  </li>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
