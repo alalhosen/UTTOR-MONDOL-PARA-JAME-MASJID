@@ -88,7 +88,7 @@ const Home = () => {
       <div className="hero bg-gray-200 my-20 rounded-2xl min-h-screen">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
-            src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
+            src="https://i.ibb.co.com/zVNpbyHj/image-18931-1707797104.jpg"
             className="max-w-2xl rounded-lg shadow-2xl"
           />
           <div className="bg-lime-400 p-2 lg:p-12 rounded-xl">
