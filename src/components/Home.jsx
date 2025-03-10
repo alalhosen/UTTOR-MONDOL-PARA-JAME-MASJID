@@ -91,10 +91,10 @@ const Home = () => {
             src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
             className="max-w-2xl rounded-lg shadow-2xl"
           />
-          <div className="bg-lime-400 p-4 rounded-xl ">
+          <div className="bg-lime-400 p-2 lg:p-12 rounded-xl">
             <h1 className="text-5xl text-center font-bold">রোজার বিধিনিষেধ</h1>
-            <p className="py-4 p-20 text-lg lg:text-3xl font-bold">
-              <ul className=" ">বিধিনিষেধ</ul>
+            <p className="text-lg lg:text-3xl font-bold">
+              <ul className="underline py-6">বিধিনিষেধঃ-</ul>
               <li>
                 দেহগহ্বরের মধ্যে কোনো কিছু প্রবেশ করা থেকে বিরত থাকা;
                 <li>যৌন ক্রিয়াকলাপে জড়ানো থেকে বিরত থাকা;</li>
