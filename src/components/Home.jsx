@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 const Home = () => {
   return (
     <div className="px-4">
@@ -83,18 +85,19 @@ const Home = () => {
           </div>
         </div>
       </div>
-
-
-      <div className="hero bg-gray-200 my-20 rounded-2xl min-h-screen">
+      
+      {/* Card  Card  Card  Card  Card  Card   */}
+      <div className="hero bg-gray-200 my-20 rounded-2xl">
+        <p>রোজার বিধিনিষেধগুলো মেনে চলা প্রতিটি মুসলমানের উচিৎ।</p>
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src="https://i.ibb.co.com/zVNpbyHj/image-18931-1707797104.jpg"
-            className="max-w-2xl rounded-lg shadow-2xl"
+            className=" w-3/4lg:max-w-2xl rounded-lg "
           />
-          <div className="bg-lime-400 p-2 lg:p-12 rounded-xl">
-            <h1 className="text-5xl text-center font-bold">রোজার বিধিনিষেধ</h1>
-            <p className="text-lg lg:text-3xl font-bold">
-              <ul className="underline py-6">বিধিনিষেধঃ-</ul>
+          <div className="bg-lime-400 p-2 lg:p-12 rounded-xl my-12">
+            <h1 className="text-4xl text-center font-bold">রোজার বিধিনিষেধ</h1>
+            <p className="text-lg lg:text-xl font-bold">
+              <ul className="underline py-6 text-purple-600 text-2xl">বিধিনিষেধঃ-</ul>
               <li>
                 দেহগহ্বরের মধ্যে কোনো কিছু প্রবেশ করা থেকে বিরত থাকা;
                 <li>যৌন ক্রিয়াকলাপে জড়ানো থেকে বিরত থাকা;</li>
@@ -106,7 +109,7 @@ const Home = () => {
                 <li>উপবাসের জন্য অনুমোদিত ব্যক্তিদের নৈকট্য থেকে বিরত থাকা।</li>
               </li>
             </p>
-            <button className="btn btn-primary">Get Started</button>
+         
           </div>
         </div>
       </div>
