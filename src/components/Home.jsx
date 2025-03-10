@@ -22,8 +22,6 @@ const Home = () => {
         </div>
       </div>
 
-
-
       <div>
         <div className="carousel w-full mt-20">
           <div id="slide1" className="carousel-item relative w-full">
@@ -91,10 +89,21 @@ const Home = () => {
               className="max-w-sm rounded-lg shadow-2xl"
             />
             <div className="bg-lime-400">
-              <h1 className="text-5xl font-bold">Box Office News!</h1>
+              <h1 className="text-5xl font-bold"></h1>
               <p className="py-6">
-                Provident cupiditate voluptatem et in. Quaerat fugiat ut
-              
+                <ul>বিধিনিষেধ</ul>
+                <li>
+                  দেহগহ্বরের মধ্যে কোনো কিছু প্রবেশ করা থেকে বিরত থাকা;
+                  <li>যৌন ক্রিয়াকলাপে জড়ানো থেকে বিরত থাকা;</li>
+                  <li>পরনিন্দার মতো অনৈতিক কাজ থেকে বিরত থাকা;</li>
+                  <li>
+                    সূর্যোদয় থেকে সূর্যাস্ত পর্যন্ত পানাহার থেকে বিরত থাকা ;
+                  </li>
+                  <li>উপবাস বা রোজার নিয়তের সহিত থাকা ;</li>
+                  <li>
+                    উপবাসের জন্য অনুমোদিত ব্যক্তিদের নৈকট্য থেকে বিরত থাকা।
+                  </li>
+                </li>
               </p>
               <button className="btn btn-primary">Get Started</button>
             </div>
@@ -102,11 +111,10 @@ const Home = () => {
         </div>
       </div>
 
-      {/* video video video video video video video video video  */}
-
       {/* 111111111111111 */}
-      <div className="pl-4">
+      {/* <div className="pl-4">
         <p>আহমদুল্লার রমজানের ওয়াজ জানতে ক্লিক </p>
+
         <iframe
           width="560"
           height="315"
@@ -116,11 +124,11 @@ const Home = () => {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
         ></iframe>
-      </div>
+      </div> */}
 
       {/* 22222222222222222 */}
 
-      <div className="pl-4">
+      {/* <div className="pl-4">
         <iframe
           width="560"
           height="315"
@@ -130,7 +138,7 @@ const Home = () => {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
         ></iframe>
-      </div>
+      </div> */}
     </div>
   );
 };
