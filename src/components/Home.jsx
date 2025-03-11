@@ -132,7 +132,7 @@ const Home = () => {
 
       {/* card single vedio   card single vedio   card single vedio   */}
       <div className=" lg:flex">
-        <div className="hero bg-base-200 min-h-screen bg-amber-100 rounded-tr-full  ">
+        <div className="hero bg-base-200 min-h-screen bg-red-200 rounded-tr-full  ">
           <div className="hero-content text-center">
             <div className="max-w-md">
               <h1 className="text-5xl font-bold">Hello there</h1>
@@ -141,7 +141,7 @@ const Home = () => {
                 className="btn btn-primary rounded-2xl"
                 to="https://www.youtube.com/watch?v=Vri8Ci0z3SM"
               >
-                <button className="p-4 text-xl">রোজা নিয়ে বিস্তারিত দেখুন</button>
+                <button className="p-4 text-xl">রোজার বিস্তারিত দেখুন</button>
               </NavLink>
             </div>
           </div>

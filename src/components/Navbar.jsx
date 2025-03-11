@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 // import { FaMosque } from "react-icons/fa6";
+import { FaMosque } from "react-icons/fa6";
 
 const Navbar = () => {
   const navLinks = (
@@ -50,16 +51,17 @@ const Navbar = () => {
             {navLinks}
           </ul>
         </div>
-        <a className="text-lg lg:text-4xl text-green-500 font-extrabold bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text animate-gradient">
-          <span className="text-red-600 text-lg lg:text-5xl pt-2">উ</span>ত্তর মন্ডল পাড়া জামে
-          মসজিদ
+
+        <a className="lg:text-3xl text-green-500 font-extrabold bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text animate-gradient">
+          <span className="text-red-600 lg:text-4xl pt-2">উ</span>ত্তর
+          মন্ডল পাড়া জামে মসজিদ
         </a>
-        
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navLinks}</ul>
       </div>
       <div className="navbar-end">
+        <FaMosque className="w-8 h-8 mr-4"></FaMosque>
         <a className="btn btn-secondary rounded-xl">Button</a>
       </div>
     </div>
