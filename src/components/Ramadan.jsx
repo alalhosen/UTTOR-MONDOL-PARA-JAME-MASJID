@@ -113,82 +113,97 @@ const Ramadan = () => {
               </tr>
               <tr className="font-bold">
                 <th>১৫ রমজান</th>
-                <td></td>
+                <td>রবিবার</td>
                 <td>১৬ মার্চ</td>
                 <td>মোঃ লিপন</td>
               </tr>
               <tr className="font-bold">
                 <th>১৬ রমজান</th>
+                <td>সোমবার</td>
                 <td>১৭ মার্চ</td>
                 <td>মোঃ দবিরুল ইসলাম</td>
               </tr>
               <tr className="font-bold">
                 <th>১৭ রমজান</th>
+                <td>মঙ্গলবার</td>
                 <td>১৮ মার্চ</td>
                 <td>মোঃ মাসুম রানা</td>
               </tr>
               <tr className="font-bold">
                 <th>১৮ রমজান</th>
+                <td>বুধবার</td>
                 <td>১৯ মার্চ</td>
                 <td>মোঃ ইলিয়াস</td>
               </tr>
               <tr className="font-bold">
                 <th>১৯ রমজান</th>
+                <td>বৃহস্পতিবার</td>
                 <td>২০ মার্চ</td>
                 <td>মোঃ মসলিম উদ্দীন</td>
               </tr>
               <tr className="font-bold">
                 <th>২০ রমজান</th>
+                <td>শুক্রবার</td>
                 <td>২১ মার্চ</td>
                 <td>মোঃ জাহাঙ্গীর</td>
               </tr>
               <tr className="font-bold">
                 <th>২১ রমজান</th>
+                <td>শনিবার</td>
                 <td>২২ মার্চ</td>
                 <td>মোঃ নাজিম উদ্দীন</td>
               </tr>
               <tr className="font-bold">
                 <th>২২ রমজান</th>
+                <td>রবিবার</td>
                 <td>২৩ মার্চ</td>
                 <td>মোঃ সমসের আলী</td>
               </tr>
               <tr className="font-bold">
                 <th>২৩ রমজান</th>
+                <td>সোমবার</td>
                 <td>২৪ মার্চ</td>
                 <td>মোঃ আসরাফুল ইসলাম</td>
               </tr>
               <tr className="font-bold">
                 <th>২৪ রমজান</th>
+                <td>মঙ্গলবার</td>
                 <td>২৫ মার্চ</td>
                 <td>মোঃ জালাল উদ্দীন</td>
               </tr>
               <tr className="font-bold">
                 <th>২৫ রমজান</th>
+                <td>বুধবার</td>
                 <td>২৬ মার্চ</td>
                 <td>মোঃ আঃ ওহাব</td>
               </tr>
               <tr className="font-bold">
                 <th>২৬ রমজান</th>
+                <td>বৃহস্পতিবার</td>
                 <td>২৭ মার্চ</td>
                 <td>মাদ্রাসা মাঠ</td>
               </tr>
               <tr className="font-bold">
                 <th>২৭ রমজান</th>
+                <td>শুক্রবার</td>
                 <td>২৮ মার্চ</td>
                 <td>মোঃ হাসিম উদ্দীন</td>
               </tr>
               <tr className="font-bold">
                 <th>২৮ রমজান</th>
+                <td>শনিবার</td>
                 <td>২৯ মার্চ</td>
                 <td>মোঃ শহিদ</td>
               </tr>
               <tr className="font-bold">
                 <th>২৯ রমজান</th>
+                <td>রবিবার</td>
                 <td>৩০ মার্চ</td>
                 <td>মোঃ </td>
               </tr>
               <tr className="font-bold">
                 <th>৩০ রমজান</th>
+                সোমবার
                 <td>৩১ মার্চ</td>
                 <td>মোঃ </td>
               </tr>
