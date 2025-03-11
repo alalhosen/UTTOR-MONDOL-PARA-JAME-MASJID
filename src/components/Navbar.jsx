@@ -16,6 +16,9 @@ const Navbar = () => {
       <li className="lg:mr-4 font-bold text-lg">
         <NavLink to="./যোগাযোগ">যোগাযোগ</NavLink>
       </li>
+      <li className="lg:mr-4 font-bold text-lg">
+        <NavLink to="./অর্থায়ন">অর্থায়ন</NavLink>
+      </li>
     </>
   );
 

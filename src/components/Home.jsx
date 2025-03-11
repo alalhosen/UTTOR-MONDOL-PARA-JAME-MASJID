@@ -132,7 +132,7 @@ const Home = () => {
 
       {/* card single vedio   card single vedio   card single vedio   */}
       <div className=" lg:flex">
-        <div className="hero bg-base-200 min-h-screen bg-amber-100 rounded-tr-full  ">
+        <div className="hero bg-base-200 min-h-screen bg-amber-200 rounded-tr-full  ">
           <div className="hero-content text-center">
             <div className="max-w-md">
               <h1 className="text-5xl font-bold">Hello there</h1>
@@ -141,7 +141,7 @@ const Home = () => {
                 className="btn btn-primary rounded-2xl"
                 to="https://www.youtube.com/watch?v=Vri8Ci0z3SM"
               >
-                <button className="">রোজা নিয়ে বিস্তারিত দেখুন</button>
+                <button className="p-4 text-xl">রোজা নিয়ে বিস্তারিত দেখুন</button>
               </NavLink>
             </div>
           </div>
@@ -156,7 +156,7 @@ const Home = () => {
                 className="btn btn-primary rounded-2xl"
                 to="https://www.somoynews.tv/news/2023-03-24/%E0%A6%B0%E0%A7%8B%E0%A6%9C%E0%A6%BE-%E0%A6%AD%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87%E0%A6%B0-%E0%A7%A7%E0%A7%AB-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%A3"
               >
-                <button>জানতে ক্লিক করুন</button>
+                <button className="p-4 text-xl">জানতে ক্লিক করুন</button>
               </NavLink>
             </div>
           </div>

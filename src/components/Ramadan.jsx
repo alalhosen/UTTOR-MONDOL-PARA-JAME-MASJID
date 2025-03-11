@@ -20,6 +20,7 @@ const Ramadan = () => {
             <thead>
               <tr>
                 <th className="text-2xl text-lime-600">রমজান</th>
+                <th className="text-2xl text-lime-600">বার</th>
                 <th className="text-2xl text-lime-600">ইংরেজি তারিখ</th>
                 <th className="text-2xl text-lime-600">নাম</th>
               </tr>
@@ -28,76 +29,91 @@ const Ramadan = () => {
               {/* row 1 */}
               <tr className="font-bold">
                 <th>১ রমজান</th>
+                <td>রবিবার</td>
                 <td>২ মার্চ</td>
                 <td>মোঃ নিজামউদ্দিন</td>
               </tr>
               <tr className="font-bold">
                 <th>২ রমজান</th>
+                <td>সোমবার</td>
                 <td>৩ মার্চ</td>
                 <td>মোঃ শামসুল হক</td>
               </tr>
               <tr className="font-bold">
                 <th>৩ রমজান</th>
+                <td>মঙ্গলবার</td>
                 <td>৪ মার্চ</td>
                 <td>মোঃ ইসারুল হক</td>
               </tr>
               <tr className="font-bold">
                 <th>৪ রমজান</th>
+                <td>বুধবার</td>
                 <td>৫ মার্চ</td>
                 <td>মোঃ আমজাদ আর্মি</td>
               </tr>
               <tr className="font-bold">
                 <th>৫ রমজান</th>
+                <td>বৃহস্পতিবার</td>
                 <td>৬ মার্চ</td>
                 <td>মোঃ মিজারুল</td>
               </tr>
               <tr className="font-bold">
                 <th>৬ রমজান</th>
+                <td>শুক্রবার</td>
                 <td>৭ মার্চ</td>
                 <td>মোঃ নজরুল ইসলাম</td>
               </tr>
               <tr className="font-bold">
                 <th>৭ রমজান</th>
+                <td>শনিবার</td>
                 <td>৮ মার্চ</td>
                 <td>মোঃ বিপ্লব</td>
               </tr>
               <tr className="font-bold">
                 <th>৮ রমজান</th>
+                <td>রবিবার</td>
                 <td>৯ মার্চ</td>
                 <td>মোঃ আনোয়ার হোসেন</td>
               </tr>
               <tr className="font-bold">
                 <th>৯ রমজান</th>
+                <td>সোমবার</td>
                 <td>১০ মার্চ</td>
                 <td>মোঃ ইসমাইল হোসেন</td>
               </tr>
               <tr className="font-bold">
                 <th>১০ রমজান</th>
+                <td>মঙ্গলবার</td>
                 <td>১১ মার্চ</td>
                 <td>মোঃ জিয়ারুল হক</td>
               </tr>
               <tr className="font-bold">
                 <th>১১ রমজান</th>
+                <td>বুধবার</td>
                 <td>১২ মার্চ</td>
                 <td>মোঃ আঃ রহমান</td>
               </tr>
               <tr className="font-bold">
                 <th>১২ রমজান</th>
+                <td>বৃহস্পতিবার</td>
                 <td>১৩ মার্চ</td>
                 <td>মোঃ মুক্তা</td>
               </tr>
               <tr className="font-bold">
                 <th>১৩ রমজান</th>
+                <td>শুক্রবার</td>
                 <td>১৪ মার্চ</td>
                 <td>মোঃ এহসানুল হক</td>
               </tr>
               <tr className="font-bold">
                 <th>১৪ রমজান</th>
+                <td>শনিবার</td>
                 <td>১৫ মার্চ</td>
                 <td>মোঃ কামরুল হক</td>
               </tr>
               <tr className="font-bold">
                 <th>১৫ রমজান</th>
+                <td></td>
                 <td>১৬ মার্চ</td>
                 <td>মোঃ লিপন</td>
               </tr>
