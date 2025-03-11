@@ -52,8 +52,8 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <a className="lg:text-3xl text-green-500 font-extrabold bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text animate-gradient">
-          <span className="text-red-600 lg:text-4xl pt-2">উ</span>ত্তর
+        <a className="text-xl lg:text-3xl text-green-500 font-extrabold bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text animate-gradient">
+          <span className="text-red-600 text-xl lg:text-4xl pt-2">উ</span>ত্তর
           মন্ডল পাড়া জামে মসজিদ
         </a>
       </div>
@@ -61,7 +61,7 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{navLinks}</ul>
       </div>
       <div className="navbar-end">
-        <FaMosque className="w-8 h-8 mr-4"></FaMosque>
+        <FaMosque className="w-8 h-8 r-4"></FaMosque>
         <a className="btn btn-secondary rounded-xl">Button</a>
       </div>
     </div>

@@ -26,7 +26,6 @@ const Ramadan = () => {
               </tr>
             </thead>
             <tbody className="">
-              {/* row 1 */}
               <tr className="font-bold">
                 <th>১ রমজান</th>
                 <td>রবিবার</td>
