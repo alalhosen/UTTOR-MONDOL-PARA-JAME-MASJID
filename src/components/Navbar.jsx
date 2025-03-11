@@ -50,8 +50,8 @@ const Navbar = () => {
             {navLinks}
           </ul>
         </div>
-        <a className="text-sm lg:text-3xl text-green-500 font-extrabold bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text animate-gradient">
-          <span className="text-red-600 text-sm lg:text-4xl pt-2">উ</span>ত্তর মন্ডল পাড়া জামে
+        <a className="text-lg lg:text-4xl text-green-500 font-extrabold bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text animate-gradient">
+          <span className="text-red-600 text-lg lg:text-5xl pt-2">উ</span>ত্তর মন্ডল পাড়া জামে
           মসজিদ
         </a>
         

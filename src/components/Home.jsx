@@ -124,7 +124,7 @@ const Home = () => {
 
           <div className="btn btn-primary rounded-2xl">
             <NavLink to="https://www.amarbarta.com.bd/religion-and-life/">
-              <button>আরো জানতে 1</button>
+              <button>আরো জানতে .....</button>
             </NavLink>
           </div>
         </div>
@@ -132,7 +132,7 @@ const Home = () => {
 
       {/* card single vedio   card single vedio   card single vedio   */}
       <div className=" lg:flex">
-        <div className="hero bg-base-200 min-h-screen bg-amber-200 rounded-tr-full  ">
+        <div className="hero bg-base-200 min-h-screen bg-amber-100 rounded-tr-full  ">
           <div className="hero-content text-center">
             <div className="max-w-md">
               <h1 className="text-5xl font-bold">Hello there</h1>
@@ -163,34 +163,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* 111111111111111 */}
-      {/* <div className="pl-4">
-        <p>আহমদুল্লার রমজানের ওয়াজ জানতে ক্লিক </p>
-
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/watch?v=Vri8Ci0z3SM"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-      </div> */}
-
-      {/* 22222222222222222 */}
-
-      {/* <div className="pl-4">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/AxkRp3yHiVU?si=K97uN05XGxYwmP_Z"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-      </div> */}
+    
     </div>
   );
 };
