@@ -93,7 +93,6 @@ const Home = () => {
             "url(https://i.ibb.co.com/ynf0fs2H/1733289536-85e3ade1d5814df1084430e4b687bdf1.jpg)",
         }}
       >
-        <div className="hero-overlay"></div>
         <div className="hero-content text-neutral-content text-center">
           <div className="max-w-md">
             <h1 className=" text-5xl font-bold">Hello there</h1>

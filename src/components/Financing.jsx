@@ -19,7 +19,7 @@ const Financing = () => {
           <table className="table text-center">
             <thead>
               <tr>
-                <th className="text-2xl text-lime-600">রমজান</th>
+                <th className="text-2xl text-lime-600">ক্রমিক নং</th>
                 <th className="text-2xl text-lime-600">বার</th>
                 <th className="text-2xl text-lime-600">ইংরেজি তারিখ</th>
                 <th className="text-2xl text-lime-600">নাম</th>
