@@ -86,8 +86,11 @@ const Home = () => {
       </div>
 
 {/* Hero single card img  Hero single card img   */}
+<div className="mt-12">
+<h2 className="text-center p-6 font-extrabold text-2xl lg:text-4xl
+">দোয়া কবুলের উত্তম সময়!!</h2>
       <div
-        className="hero min-h-screen"
+        className="hero min-h-screen rounded-2xl"
         style={{
           backgroundImage:
             "url(https://i.ibb.co.com/ynf0fs2H/1733289536-85e3ade1d5814df1084430e4b687bdf1.jpg)",
@@ -95,19 +98,20 @@ const Home = () => {
       >
         <div className="hero-content text-neutral-content text-center">
           <div className="max-w-md">
-            <h1 className=" text-5xl font-bold">Hello there</h1>
-            <p className="my-5">
+            <h1 className="text-3xl lg:text-5xl text-gray-600 font-bold">দোয়া কবুলের মাস</h1>
+            <p className="my-5 text-black">
             রমজানে দোয়া কবুলের শ্রেষ্ঠ সময় জেনে নিন!
             </p>
-            <button className="btn btn-primary">Get Started</button>
+            <button className="btn btn-primary">জানতে ক্লিক করুন</button>
           </div>
         </div>
       </div>
+</div>
 
       {/* Card  Card  Card  Card  Card  Card   */}
       <div className="hero bg-gray-200 my-20 rounded-2xl">
         <div>
-          <p className="text-xl lg:text-3xl p-8 font-bold text-center bg-pink-200 mt-8 rounded-full">
+          <p className="text-lg lg:text-3xl p-4 lg:p-8 font-bold text-center bg-pink-200 mt-8 rounded-full">
             রোজার বিধিনিষেধগুলো মেনে চলা প্রতিটি মুসলমানের উচিৎ।
           </p>
           <div className="hero-content flex-col lg:flex-row-reverse">
