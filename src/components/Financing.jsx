@@ -10,204 +10,266 @@ const Financing = () => {
       </div>
       <div>
         <div className="mt-9 mb-4">
-          <p className="text-3xl bg-lime-400 text-center font-extrabold text-orange-500 p-4 mx-5 rounded-se-full rounded-ss-full hover:text-slate-100">
-            মসজিদে ইফতারের নামের তালিকাঃ
+          <p className="text-3xl bg-lime-400 w-full text-center font-extrabold text-orange-500 p-4 rounded-xl scroll-mx-0 hover:text-slate-100">
+            তারাবি নামাযের টাকা আদায়ের হিসাব ২০২৫ঃ-
           </p>
         </div>
 
         <div className="">
-          <table className="table text-center">
-            <thead>
-              <tr>
-                <th className="text-2xl text-lime-600">ক্রমিক নং</th>
-                <th className="text-2xl text-lime-600">বার</th>
-                <th className="text-2xl text-lime-600">ইংরেজি তারিখ</th>
-                <th className="text-2xl text-lime-600">নাম</th>
-              </tr>
-            </thead>
-            <tbody className="">
-              <tr className="font-bold">
-                <th>১ রমজান</th>
-                <td>রবিবার</td>
-                <td>২ মার্চ</td>
-                <td>মোঃ নিজামউদ্দিন</td>
-              </tr>
-              <tr className="font-bold">
-                <th>২ রমজান</th>
-                <td>সোমবার</td>
-                <td>৩ মার্চ</td>
-                <td>মোঃ শামসুল হক</td>
-              </tr>
-              <tr className="font-bold">
-                <th>৩ রমজান</th>
-                <td>মঙ্গলবার</td>
-                <td>৪ মার্চ</td>
-                <td>মোঃ ইসারুল হক</td>
-              </tr>
-              <tr className="font-bold">
-                <th>৪ রমজান</th>
-                <td>বুধবার</td>
-                <td>৫ মার্চ</td>
-                <td>মোঃ আমজাদ আর্মি</td>
-              </tr>
-              <tr className="font-bold">
-                <th>৫ রমজান</th>
-                <td>বৃহস্পতিবার</td>
-                <td>৬ মার্চ</td>
-                <td>মোঃ মিজারুল</td>
-              </tr>
-              <tr className="font-bold">
-                <th>৬ রমজান</th>
-                <td>শুক্রবার</td>
-                <td>৭ মার্চ</td>
-                <td>মোঃ নজরুল ইসলাম</td>
-              </tr>
-              <tr className="font-bold">
-                <th>৭ রমজান</th>
-                <td>শনিবার</td>
-                <td>৮ মার্চ</td>
-                <td>মোঃ বিপ্লব</td>
-              </tr>
-              <tr className="font-bold">
-                <th>৮ রমজান</th>
-                <td>রবিবার</td>
-                <td>৯ মার্চ</td>
-                <td>মোঃ আনোয়ার হোসেন</td>
-              </tr>
-              <tr className="font-bold">
-                <th>৯ রমজান</th>
-                <td>সোমবার</td>
-                <td>১০ মার্চ</td>
-                <td>মোঃ ইসমাইল হোসেন</td>
-              </tr>
-              <tr className="font-bold">
-                <th>১০ রমজান</th>
-                <td>মঙ্গলবার</td>
-                <td>১১ মার্চ</td>
-                <td>মোঃ জিয়ারুল হক</td>
-              </tr>
-              <tr className="font-bold">
-                <th>১১ রমজান</th>
-                <td>বুধবার</td>
-                <td>১২ মার্চ</td>
-                <td>মোঃ আঃ রহমান</td>
-              </tr>
-              <tr className="font-bold">
-                <th>১২ রমজান</th>
-                <td>বৃহস্পতিবার</td>
-                <td>১৩ মার্চ</td>
-                <td>মোঃ মুক্তা</td>
-              </tr>
-              <tr className="font-bold">
-                <th>১৩ রমজান</th>
-                <td>শুক্রবার</td>
-                <td>১৪ মার্চ</td>
-                <td>মোঃ এহসানুল হক</td>
-              </tr>
-              <tr className="font-bold">
-                <th>১৪ রমজান</th>
-                <td>শনিবার</td>
-                <td>১৫ মার্চ</td>
-                <td>মোঃ কামরুল হক</td>
-              </tr>
-              <tr className="font-bold">
-                <th>১৫ রমজান</th>
-                <td>রবিবার</td>
-                <td>১৬ মার্চ</td>
-                <td>মোঃ লিপন</td>
-              </tr>
-              <tr className="font-bold">
-                <th>১৬ রমজান</th>
-                <td>সোমবার</td>
-                <td>১৭ মার্চ</td>
-                <td>মোঃ দবিরুল ইসলাম</td>
-              </tr>
-              <tr className="font-bold">
-                <th>১৭ রমজান</th>
-                <td>মঙ্গলবার</td>
-                <td>১৮ মার্চ</td>
-                <td>মোঃ মাসুম রানা</td>
-              </tr>
-              <tr className="font-bold">
-                <th>১৮ রমজান</th>
-                <td>বুধবার</td>
-                <td>১৯ মার্চ</td>
-                <td>মোঃ ইলিয়াস</td>
-              </tr>
-              <tr className="font-bold">
-                <th>১৯ রমজান</th>
-                <td>বৃহস্পতিবার</td>
-                <td>২০ মার্চ</td>
-                <td>মোঃ মসলিম উদ্দীন</td>
-              </tr>
-              <tr className="font-bold">
-                <th>২০ রমজান</th>
-                <td>শুক্রবার</td>
-                <td>২১ মার্চ</td>
-                <td>মোঃ জাহাঙ্গীর</td>
-              </tr>
-              <tr className="font-bold">
-                <th>২১ রমজান</th>
-                <td>শনিবার</td>
-                <td>২২ মার্চ</td>
-                <td>মোঃ নাজিম উদ্দীন</td>
-              </tr>
-              <tr className="font-bold">
-                <th>২২ রমজান</th>
-                <td>রবিবার</td>
-                <td>২৩ মার্চ</td>
-                <td>মোঃ সমসের আলী</td>
-              </tr>
-              <tr className="font-bold">
-                <th>২৩ রমজান</th>
-                <td>সোমবার</td>
-                <td>২৪ মার্চ</td>
-                <td>মোঃ আসরাফুল ইসলাম</td>
-              </tr>
-              <tr className="font-bold">
-                <th>২৪ রমজান</th>
-                <td>মঙ্গলবার</td>
-                <td>২৫ মার্চ</td>
-                <td>মোঃ জালাল উদ্দীন</td>
-              </tr>
-              <tr className="font-bold">
-                <th>২৫ রমজান</th>
-                <td>বুধবার</td>
-                <td>২৬ মার্চ</td>
-                <td>মোঃ আঃ ওহাব</td>
-              </tr>
-              <tr className="font-bold">
-                <th>২৬ রমজান</th>
-                <td>বৃহস্পতিবার</td>
-                <td>২৭ মার্চ</td>
-                <td>মাদ্রাসা মাঠ</td>
-              </tr>
-              <tr className="font-bold">
-                <th>২৭ রমজান</th>
-                <td>শুক্রবার</td>
-                <td>২৮ মার্চ</td>
-                <td>মোঃ হাসিম উদ্দীন</td>
-              </tr>
-              <tr className="font-bold">
-                <th>২৮ রমজান</th>
-                <td>শনিবার</td>
-                <td>২৯ মার্চ</td>
-                <td>মোঃ শহিদ</td>
-              </tr>
-              <tr className="font-bold">
-                <th>২৯ রমজান</th>
-                <td>রবিবার</td>
-                <td>৩০ মার্চ</td>
-                <td>মোঃ </td>
-              </tr>
-              <tr className="font-bold">
-                <th>৩০ রমজান</th>
-                <td>সোমবার</td>
-                <td>৩১ মার্চ</td>
-                <td>মোঃ </td>
-              </tr>
-            </tbody>
-          </table>
+         
+        <table className="table text-center mt-6 mb-32">
+          <thead>
+            <tr className="">
+              <th className="text-2xl text-lime-600">ক্রমিক নং</th>
+              <th className="text-2xl text-lime-600">নাম</th>
+              <th className="text-2xl text-lime-600">টাকার পরিমান</th>
+              <th className="text-2xl text-lime-600">জমা</th>
+            </tr>
+          </thead>
+          <tbody className="">
+            <tr className="font-bold">
+              <th>১</th>
+              <td>মোঃ আমজাদ</td>
+              <td>১০০০</td>
+              <td></td>
+            </tr>
+            <tr className="font-bold">
+              <th>২</th>
+              <td>মোঃ মসলিম উদ্দীন</td>
+              <td>৫০০</td>
+              <td></td>
+            </tr>
+            <tr className="font-bold">
+              <th>৩</th>
+              <td>মোঃ সইফল</td>
+              <td>৪০০</td>
+              <td></td>
+            </tr>
+            <tr className="font-bold">
+              <th>৪</th>
+              <td>মোঃ আনোয়ার</td>
+              <td>৩০০</td>
+              <td></td>
+            </tr>
+            <tr className="font-bold">
+              <th>৫</th>
+              <td>মোঃ হাসিম</td>
+              <td>৩০০</td>
+              <td></td>
+            </tr>
+            <tr className="font-bold">
+              <th>৬</th>
+              <td>মোঃ মাসুম</td>
+              <td>৫০০</td>
+              <td>৫০০</td>
+            </tr>
+            <tr className="font-bold">
+              <th>৭</th>
+              <td>মোঃ আঃ ওহাব</td>
+              <td>২০০০</td>
+              <td></td>
+            </tr>
+            <tr className="font-bold">
+              <th>৮</th>
+              <td>মোঃ নাজিম</td>
+              <td>৭০০</td>
+              <td>৭০০</td>
+            </tr>
+            <tr className="font-bold">
+              <th>৯</th>
+              <td>মোঃ বিপ্লব</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr className="font-bold">
+              <th>১০</th>
+              <td>মোঃ আনোয়ার</td>
+              <td>৫০০</td>
+              <td></td>
+            </tr>
+            <tr className="font-bold">
+              <th>১১</th>
+              <td>মোঃ দবিরুল</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr className="font-bold">
+              <th>১২</th>
+              <td>মোঃ সামসুল</td>
+              <td>৫০০</td>
+              <td></td>
+            </tr>
+            <tr className="font-bold">
+              <th>১৩</th>
+              <td>মোঃ এহসানুল</td>
+              <td>৫০০</td>
+              <td></td>
+            </tr>
+            <tr className="font-bold">
+              <th>১৪</th>
+              <td>মোঃ মুক্তা</td>
+              <td>৪০০</td>
+              <td></td>
+            </tr>
+            <tr className="font-bold">
+              <th>১৫</th>
+              <td>মোঃ ইসারুল</td>
+              <td>৫০০</td>
+              <td></td>
+            </tr>
+            <tr className="font-bold">
+              <th>১৬</th>
+              <td>মোঃ ইলিয়াস</td>
+              <td>৫০০</td>
+              <td></td>
+            </tr>
+            <tr className="font-bold">
+              <th>১৭</th>
+              <td>মোঃ মুনসুর</td>
+              <td>৫০০</td>
+              <td></td>
+            </tr>
+            <tr className="font-bold">
+              <th>১৮</th>
+              <td>মোঃ শাহিন</td>
+              <td>৩০০</td>
+              <td></td>
+            </tr>
+            <tr className="font-bold">
+              <th>১৯</th>
+              <td>মোঃ জালাল</td>
+              <td>২০০</td>
+              <td>২০০</td>
+            </tr>
+            <tr className="font-bold">
+              <th>২০</th>
+              <td>মোঃ শহিদ</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr className="font-bold">
+              <th>২১</th>
+              <td>মোঃ আসরাফুল</td>
+              <td>৩০০</td>
+              <td></td>
+            </tr>
+            <tr className="font-bold">
+              <th>২২</th>
+              <td>মোঃ আজমুল</td>
+              <td>৪০০</td>
+              <td>৪০০</td>
+            </tr>
+            <tr className="font-bold">
+              <th>২৩</th>
+              <td>মোঃ মেজারুল</td>
+              <td>৫০০</td>
+              <td>৫০০</td>
+            </tr>
+            <tr className="font-bold">
+              <th>২৪</th>
+              <td>মোঃ ইসমাইল</td>
+              <td>৫০০</td>
+              <td>৫০০</td>
+            </tr>
+            <tr className="font-bold">
+              <th>২৫</th>
+              <td>মোঃ সমসের</td>
+              <td>৩০০</td>
+              <td></td>
+            </tr>
+            <tr className="font-bold">
+              <th>২৬</th>
+              <td>মোঃ রশিদুল</td>
+              <td>৩০০</td>
+              <td></td>
+            </tr>
+            <tr className="font-bold">
+              <th>২৭</th>
+              <td>মোঃ মহসিম</td>
+              <td>৩০০</td>
+              <td></td>
+            </tr>
+            <tr className="font-bold">
+              <th>২৮</th>
+              <td>মোঃ রিপন</td>
+              <td>৩০০</td>
+              <td></td>
+            </tr>
+            <tr className="font-bold">
+              <th>২৯</th>
+              <td>মোঃ কামরুল</td>
+              <td>৫০০</td>
+              <td>৫০০</td>
+            </tr>
+            <tr className="font-bold">
+              <th>৩০</th>
+              <td>মোঃ সইদুল</td>
+              <td>২০০</td>
+              <td></td>
+            </tr>
+            <tr className="font-bold">
+              <th>৩১</th>
+              <td>মোঃ মাসুদ</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr className="font-bold">
+              <th>৩২</th>
+              <td>মোঃ নজরুল</td>
+              <td>৫০০</td>
+              <td></td>
+            </tr>
+            <tr className="font-bold">
+              <th>৩৩</th>
+              <td>মোঃ আঃ রহমান</td>
+              <td>১০০০</td>
+              <td></td>
+            </tr>
+            <tr className="font-bold">
+              <th>৩৪</th>
+              <td>মোঃ নুরুল</td>
+              <td>৩০০</td>
+              <td></td>
+            </tr>
+            <tr className="font-bold">
+              <th>৩৫</th>
+              <td>মোঃ সোহেল</td>
+              <td>২০০</td>
+              <td></td>
+            </tr>
+            <tr className="font-bold">
+              <th>৩৬</th>
+              <td>মোঃ আবদুল্লা</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr className="font-bold">
+              <th>৩৭</th>
+              <td>মোঃ মোমিন</td>
+              <td>২০০</td>
+              <td></td>
+            </tr>
+            <tr className="font-bold">
+              <th>৩৮</th>
+              <td>মোঃ নিশান</td>
+              <td>২০০</td>
+              <td></td>
+            </tr>
+            <tr className="font-bold">
+              <th>৩৯</th>
+              <td>মোঃ তরিকুল</td>
+              <td>২০০</td>
+              <td></td>
+            </tr>
+            <tr className="font-bold">
+              <th>৪০</th>
+              <td>মোঃ জিয়ারুল</td>
+              <td></td>
+              <td></td>
+            </tr>
+          
+          </tbody>
+        </table>
         </div>
       </div>
     </div>

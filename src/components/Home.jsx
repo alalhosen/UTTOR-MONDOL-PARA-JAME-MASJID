@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className="px-4">
       <div
-        className="hero min-h-screen mt-9 rounded-xl"
+        className="hero min-h-screen mt-44 rounded-xl "
         style={{
           backgroundImage:
             "url(https://i.ibb.co.com/hFXzcBwS/IMG-20250302-134402.jpg)",
@@ -19,7 +19,12 @@ const Home = () => {
             <p className="text-xl font-bold text-lime-300">
               May Allah grant all of us the taufiq to be a masque.
             </p>
-            <button className="btn btn-primary mt-4">Get Started</button>
+            <div className="btn btn-primary rounded-2xl">
+            <NavLink to="https://www.youtube.com/watch?v=NZGuFf2lRDE ">
+              <button>আযান শুনুন .....</button>
+            </NavLink>
+          </div>
+       
           </div>
         </div>
       </div>
@@ -85,28 +90,34 @@ const Home = () => {
         </div>
       </div>
 
-{/* Hero single card img  Hero single card img   */}
-<div className="mt-12">
-<h2 className="text-center p-6 font-extrabold text-2xl lg:text-4xl
-">দোয়া কবুলের উত্তম সময়!!</h2>
-      <div
-        className="hero min-h-screen rounded-2xl"
-        style={{
-          backgroundImage:
-            "url(https://i.ibb.co.com/ynf0fs2H/1733289536-85e3ade1d5814df1084430e4b687bdf1.jpg)",
-        }}
-      >
-        <div className="hero-content text-neutral-content text-center">
-          <div className="max-w-md">
-            <h1 className="text-3xl lg:text-5xl text-gray-600 font-bold">দোয়া কবুলের মাস</h1>
-            <p className="my-5 text-black">
-            রমজানে দোয়া কবুলের শ্রেষ্ঠ সময় জেনে নিন!
-            </p>
-            <button className="btn btn-primary">জানতে ক্লিক করুন</button>
+      {/* Hero single card img  Hero single card img   */}
+      <div className="mt-12">
+        <h2
+          className="text-center p-6 font-extrabold text-2xl lg:text-4xl
+"
+        >
+          দোয়া কবুলের উত্তম সময়!!
+        </h2>
+        <div
+          className="hero min-h-screen rounded-2xl"
+          style={{
+            backgroundImage:
+              "url(https://i.ibb.co.com/ynf0fs2H/1733289536-85e3ade1d5814df1084430e4b687bdf1.jpg)",
+          }}
+        >
+          <div className="hero-content text-neutral-content text-center">
+            <div className="max-w-md">
+              <h1 className="text-3xl lg:text-5xl text-gray-600 font-bold">
+                দোয়া কবুলের মাস
+              </h1>
+              <p className="my-5 text-black">
+                রমজানে দোয়া কবুলের শ্রেষ্ঠ সময় জেনে নিন!
+              </p>
+              <button className="btn btn-primary">জানতে ক্লিক করুন</button>
+            </div>
           </div>
         </div>
       </div>
-</div>
 
       {/* Card  Card  Card  Card  Card  Card   */}
       <div className="hero bg-gray-200 my-20 rounded-2xl">
