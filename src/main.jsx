@@ -8,6 +8,7 @@ import Connection from "./components/Connection.jsx";
 import Gallery from "./components/Gallery.jsx";
 import Home from "./components/Home.jsx";
 import Ramadan from "./components/Ramadan.jsx";
+import Financing from "./components/Financing.jsx";
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: "/যোগাযোগ",
         element: <Connection></Connection>,
+      },
+      {
+        path: "/অর্থায়ন",
+        element: <Financing></Financing>,
       },
     ],
   },

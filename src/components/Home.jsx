@@ -85,6 +85,26 @@ const Home = () => {
         </div>
       </div>
 
+{/* Hero single card img  Hero single card img   */}
+      <div
+        className="hero min-h-screen"
+        style={{
+          backgroundImage:
+            "url(https://i.ibb.co.com/ynf0fs2H/1733289536-85e3ade1d5814df1084430e4b687bdf1.jpg)",
+        }}
+      >
+        <div className="hero-overlay"></div>
+        <div className="hero-content text-neutral-content text-center">
+          <div className="max-w-md">
+            <h1 className=" text-5xl font-bold">Hello there</h1>
+            <p className="my-5">
+            রমজানে দোয়া কবুলের শ্রেষ্ঠ সময় জেনে নিন!
+            </p>
+            <button className="btn btn-primary">Get Started</button>
+          </div>
+        </div>
+      </div>
+
       {/* Card  Card  Card  Card  Card  Card   */}
       <div className="hero bg-gray-200 my-20 rounded-2xl">
         <div>
@@ -136,7 +156,9 @@ const Home = () => {
           <div className="hero-content text-center">
             <div className="max-w-md">
               <h1 className="text-5xl font-bold">Hello there</h1>
-              <p className="py-6 text-xl">রোজা নিয়ে ১৫ টি জরুরি প্রশ্নের উত্তর</p>
+              <p className="py-6 text-xl">
+                রোজা নিয়ে ১৫ টি জরুরি প্রশ্নের উত্তর
+              </p>
               <NavLink
                 className="btn btn-primary rounded-2xl"
                 to="https://www.youtube.com/watch?v=Vri8Ci0z3SM"
@@ -151,7 +173,9 @@ const Home = () => {
           <div className="hero-content text-center">
             <div className="max-w-md">
               <h1 className="text-5xl font-bold">Hello there</h1>
-              <p className="py-6 text-xl">কী কারণে রোজা ভেঙ্গে যায়? রোজা নিয়ে আরও কিছু প্রশ্নের জবাব</p>
+              <p className="py-6 text-xl">
+                কী কারণে রোজা ভেঙ্গে যায়? রোজা নিয়ে আরও কিছু প্রশ্নের জবাব
+              </p>
               <NavLink
                 className="btn btn-primary rounded-2xl"
                 to="https://www.somoynews.tv/news/2023-03-24/%E0%A6%B0%E0%A7%8B%E0%A6%9C%E0%A6%BE-%E0%A6%AD%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87%E0%A6%B0-%E0%A7%A7%E0%A7%AB-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%A3"
@@ -162,8 +186,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-
-    
     </div>
   );
 };

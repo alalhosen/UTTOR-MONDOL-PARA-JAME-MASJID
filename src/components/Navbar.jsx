@@ -61,7 +61,7 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{navLinks}</ul>
       </div>
       <div className="navbar-end">
-        <FaMosque className="w-8 h-8 r-4"></FaMosque>
+        <FaMosque className="w-8 h-8 mr-4"></FaMosque>
         <a className="btn btn-secondary rounded-xl">Button</a>
       </div>
     </div>
