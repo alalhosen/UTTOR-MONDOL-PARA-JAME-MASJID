@@ -208,9 +208,15 @@ const Home = () => {
             className="max-w-sm rounded-lg shadow-2xl"
           />
           <div>
-            <h1 className="text-5xl font-bold">Box Office News!</h1>
+            <h1 className="text-5xl font-bold">বেস্ট কোরআন তেলাওয়াত ৩০তম পারা</h1>
             <p className="py-6">৩০ পারা হিফজুল কোরআন ক্বারী আবু রায়হান</p>
-            <button className="btn btn-primary">Get Started</button>
+            <NavLink
+                className="btn btn-secondary rounded-2xl"
+                to="https://www.youtube.com/watch?v=Vri8Ci0z3SM"
+              >
+                <button className="p-4 text-xl">কুরআন তেলাওয়াত</button>
+              </NavLink>
+         
           </div>
         </div>
       </div>
