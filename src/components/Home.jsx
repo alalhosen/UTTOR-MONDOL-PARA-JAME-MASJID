@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 const Home = () => {
   return (
     <div className="px-4">
+      {/* Home page single hero img */}
       <div
         className="hero min-h-screen mt-44 rounded-xl "
         style={{
@@ -10,7 +11,6 @@ const Home = () => {
             "url(https://i.ibb.co.com/hFXzcBwS/IMG-20250302-134402.jpg)",
         }}
       >
-        {/* <div className="hero-overlay"></div> */}
         <div className="hero-content text-neutral-content text-center -mt-20">
           <div className="max-w-md">
             <h1 className="text-gray-200 mb-5 text-5xl font-bold">
@@ -20,11 +20,10 @@ const Home = () => {
               May Allah grant all of us the taufiq to be a masque.
             </p>
             <div className="btn btn-primary rounded-2xl">
-            <NavLink to="https://www.youtube.com/watch?v=NZGuFf2lRDE ">
-              <button>আযান শুনুন .....</button>
-            </NavLink>
-          </div>
-       
+              <NavLink to="https://www.youtube.com/watch?v=NZGuFf2lRDE ">
+                <button>আযান শুনুন .....</button>
+              </NavLink>
+            </div>
           </div>
         </div>
       </div>
@@ -197,6 +196,25 @@ const Home = () => {
                 <button className="p-4 text-xl">জানতে ক্লিক করুন</button>
               </NavLink>
             </div>
+          </div>
+        </div>
+      </div>
+
+      {/* card hero quran  card hero quran   */}
+      <div className="hero bg-base-200 min-h-screen">
+        <div className="hero-content flex-col lg:flex-row">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
+            className="max-w-sm rounded-lg shadow-2xl"
+          />
+          <div>
+            <h1 className="text-5xl font-bold">Box Office News!</h1>
+            <p className="py-6">
+              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
+              et a id nisi.
+            </p>
+            <button className="btn btn-primary">Get Started</button>
           </div>
         </div>
       </div>
