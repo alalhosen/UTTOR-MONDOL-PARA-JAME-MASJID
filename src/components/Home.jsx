@@ -201,11 +201,11 @@ const Home = () => {
       </div>
 
       {/* card hero quran  card hero quran   */}
-      <div className="hero bg-red-100 min-h-screen mb-24">
+      <div className="hero bg-red-100 min-h-screen mb-24 rounded-2xl mt-12">
         <div className="hero-content flex-col lg:flex-row mb-12 mt-8">
           <img
             src="https://i.ibb.co.com/4Z6yXsT0/asian-muslim-children-smile-face-260nw-452365450.webp"
-            className="max-w-sm rounded-lg shadow-2xl"
+            className="min-w-s rounded-lg shadow-2xl"
           />
           <div>
             <h1 className="text-5xl font-bold">
