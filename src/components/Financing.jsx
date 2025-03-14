@@ -30,7 +30,7 @@ const Financing = () => {
                 <th>১</th>
                 <td>মোঃ আমজাদ</td>
                 <td>১০০০</td>
-                <td></td>
+                <td>১০০০</td>
               </tr>
               <tr className="font-bold">
                 <th>২</th>
@@ -77,7 +77,7 @@ const Financing = () => {
               <tr className="font-bold">
                 <th>৯</th>
                 <td>মোঃ বিপ্লব</td>
-                <td></td>
+                <td>৫০০</td>
                 <td></td>
               </tr>
               <tr className="font-bold">
@@ -89,20 +89,20 @@ const Financing = () => {
               <tr className="font-bold">
                 <th>১১</th>
                 <td>মোঃ দবিরুল</td>
-                <td></td>
+                <td>৩০০</td>
                 <td></td>
               </tr>
               <tr className="font-bold">
                 <th>১২</th>
                 <td>মোঃ সামসুল</td>
                 <td>৫০০</td>
-                <td></td>
+                <td>৫০০</td>
               </tr>
               <tr className="font-bold">
                 <th>১৩</th>
                 <td>মোঃ এহসানুল</td>
                 <td>৫০০</td>
-                <td></td>
+                <td>৫০০</td>
               </tr>
               <tr className="font-bold">
                 <th>১৪</th>
@@ -143,7 +143,7 @@ const Financing = () => {
               <tr className="font-bold">
                 <th>২০</th>
                 <td>মোঃ শহিদ</td>
-                <td></td>
+                <td>৪০০</td>
                 <td></td>
               </tr>
               <tr className="font-bold">
@@ -209,7 +209,7 @@ const Financing = () => {
               <tr className="font-bold">
                 <th>৩১</th>
                 <td>মোঃ মাসুদ</td>
-                <td></td>
+                <td>৩০০</td>
                 <td></td>
               </tr>
               <tr className="font-bold">
@@ -263,6 +263,30 @@ const Financing = () => {
               <tr className="font-bold">
                 <th>৪০</th>
                 <td>মোঃ জিয়ারুল</td>
+                <td>৪০০</td>
+                <td></td>
+              </tr>
+              <tr className="font-bold">
+                <th>৪১</th>
+                <td>মোঃ নিজাম</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr className="font-bold">
+                <th>৪২</th>
+                <td>মোঃ আমান</td>
+                <td>২০০</td>
+                <td></td>
+              </tr>
+              <tr className="font-bold">
+                <th>৪৩</th>
+                <td>মোঃ সোহাগ</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr className="font-bold">
+                <th>৪৪</th>
+                <td>মোঃ </td>
                 <td></td>
                 <td></td>
               </tr>
