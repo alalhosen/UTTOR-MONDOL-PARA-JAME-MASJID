@@ -8,6 +8,8 @@ const Ramadan = () => {
           <p>২০২৫ খ্রিস্টাব্দ</p>
         </div>
       </div>
+
+      {/* Ramadane er ifter er talika */}
       <div>
         <div className="mt-9 mb-4">
           <p className="text-3xl bg-lime-400 text-center font-extrabold text-orange-500 p-4 mx-5 rounded-se-full rounded-ss-full hover:text-slate-100">
@@ -198,7 +200,7 @@ const Ramadan = () => {
                 <th>২৯ রমজান</th>
                 <td>রবিবার</td>
                 <td>৩০ মার্চ</td>
-                <td>মোঃ </td>
+                <td>মোঃ সইদুল</td>
               </tr>
               <tr className="font-bold">
                 <th>৩০ রমজান</th>
