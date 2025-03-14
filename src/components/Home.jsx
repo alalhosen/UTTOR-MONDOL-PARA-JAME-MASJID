@@ -202,21 +202,43 @@ const Home = () => {
 
       {/* card hero quran  card hero quran   */}
       <div className="hero bg-base-200 min-h-screen">
-        <div className="hero-content flex-col lg:flex-row">
+        <div className="hero-content flex-col lg:flex-row mb-32">
           <img
             src="https://i.ibb.co.com/4Z6yXsT0/asian-muslim-children-smile-face-260nw-452365450.webp"
             className="max-w-sm rounded-lg shadow-2xl"
           />
           <div>
-            <h1 className="text-5xl font-bold">বেস্ট কোরআন তেলাওয়াত ৩০তম পারা</h1>
+            <h1 className="text-5xl font-bold">
+              বেস্ট কোরআন তেলাওয়াত ৩০তম পারা
+            </h1>
             <p className="py-6">৩০ পারা হিফজুল কোরআন ক্বারী আবু রায়হান</p>
             <NavLink
-                className="btn btn-secondary rounded-2xl"
-                to="https://www.youtube.com/watch?v=Vri8Ci0z3SM"
-              >
-                <button className="p-4 text-xl">কুরআন তেলাওয়াত</button>
-              </NavLink>
-         
+              className="btn btn-secondary rounded-2xl"
+              to="https://www.youtube.com/watch?v=Vri8Ci0z3SM"
+            >
+              <button className="p-4 text-xl">কুরআন তেলাওয়াত</button>
+            </NavLink>
+          </div>
+        </div>
+      </div>
+
+      {/* single card fitra adai  single card fitra adai   */}
+      <div className="hero bg-base-200 min-h-screen">
+        <div className="hero-content text-center">
+          <div className="max-w-md">
+            <h1 className="text-5xl font-bold">ফিতরা আদায়ের সঠিক নিয়ম</h1>
+            <p className="py-6">
+              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
+              et a id nisi.
+            </p>
+
+            <NavLink
+              className="btn btn-secondary rounded-2xl"
+              to="https://www.youtube.com/watch?v=rj6daq2k07A"
+            >
+              <button className="p-4 text-xl">ফিতরার নিয়ম</button>
+            </NavLink>
           </div>
         </div>
       </div>
