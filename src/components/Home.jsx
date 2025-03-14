@@ -201,8 +201,8 @@ const Home = () => {
       </div>
 
       {/* card hero quran  card hero quran   */}
-      <div className="hero bg-base-200 min-h-screen">
-        <div className="hero-content flex-col lg:flex-row mb-32">
+      <div className="hero bg-red-100 min-h-screen mb-24">
+        <div className="hero-content flex-col lg:flex-row mb-12 mt-8">
           <img
             src="https://i.ibb.co.com/4Z6yXsT0/asian-muslim-children-smile-face-260nw-452365450.webp"
             className="max-w-sm rounded-lg shadow-2xl"
@@ -223,21 +223,25 @@ const Home = () => {
       </div>
 
       {/* single card fitra adai  single card fitra adai   */}
-      <div className="hero bg-base-200 min-h-screen">
+      <div className="hero bg-base-200 min-h-screen mb-12">
         <div className="hero-content text-center">
           <div className="max-w-md">
             <h1 className="text-5xl font-bold">ফিতরা আদায়ের সঠিক নিয়ম</h1>
             <p className="py-6">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+              যাকাতুল ফিতর বা ফিতরা,ফেতরা কি কেনো ও সংক্ষেপে |
             </p>
 
+            <NavLink
+              className="btn btn-primary rounded-2xl mb-4"
+              to="https://www.youtube.com/watch?v=tOJAmVa0bB0"
+            >
+              <button className="p-4 text-xl">ফিতরা কি, কেন ?</button>
+            </NavLink>
             <NavLink
               className="btn btn-secondary rounded-2xl"
               to="https://www.youtube.com/watch?v=rj6daq2k07A"
             >
-              <button className="p-4 text-xl">ফিতরার নিয়ম</button>
+              <button className="p-4 text-xl">ফিতরার দেওয়ার নিয়ম</button>
             </NavLink>
           </div>
         </div>
