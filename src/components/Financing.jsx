@@ -269,7 +269,7 @@ const Financing = () => {
               <tr className="font-bold">
                 <th>৪১</th>
                 <td>মোঃ নিজাম</td>
-                <td></td>
+                <td>৩০০</td>
                 <td></td>
               </tr>
               <tr className="font-bold">
@@ -287,7 +287,7 @@ const Financing = () => {
               <tr className="font-bold">
                 <th>৪৪</th>
                 <td>মোট </td>
-                <td>১৭৯০০</td>
+                <td>১৮২০০</td>
                 <td></td>
               </tr>
             </tbody>
