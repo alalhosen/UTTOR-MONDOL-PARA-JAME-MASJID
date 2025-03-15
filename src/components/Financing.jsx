@@ -19,10 +19,10 @@ const Financing = () => {
           <table className="table text-center mt-6 mb-32">
             <thead>
               <tr className="">
-                <th className="text-2xl text-lime-600">ক্রমিক নং</th>
-                <th className="text-2xl text-lime-600">নাম</th>
-                <th className="text-2xl text-lime-600">টাকার পরিমান</th>
-                <th className="text-2xl text-lime-600">জমা</th>
+                <th className="text-2xl text-purple-400">ক্রমিক নং</th>
+                <th className="text-2xl text-purple-400">নাম</th>
+                <th className="text-2xl text-purple-400">টাকার পরিমান</th>
+                <th className="text-2xl text-purple-400">জমা</th>
               </tr>
             </thead>
             <tbody className="">
