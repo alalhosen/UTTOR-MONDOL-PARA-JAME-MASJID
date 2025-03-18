@@ -126,7 +126,7 @@ const Home = () => {
           </p>
           <div className="hero-content flex-col lg:flex-row-reverse">
             <img
-              src="https://i.ibb.co.com/zVNpbyHj/image-18931-1707797104.jpg"
+              src="https://i.ibb.co.com/KzGV78wL/image-18931-1707797104.jpg"
               className=" w-3/4lg:max-w-2xl rounded-lg"
             />
             <div className="bg-lime-400 p-2 lg:p-12 rounded-xl my-12 font-bold">

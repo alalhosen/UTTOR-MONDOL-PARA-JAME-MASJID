@@ -8,6 +8,11 @@ const Financing = () => {
           <p>২০২৫ খ্রিস্টাব্দ</p>
         </div>
       </div>
+
+
+
+
+      
       <div>
         <div className="mt-9 mb-4">
           <p className="text-3xl bg-lime-400 w-full text-center font-extrabold text-orange-500 p-4 rounded-xl scroll-mx-0 hover:text-slate-100">
@@ -36,25 +41,25 @@ const Financing = () => {
                 <th>২</th>
                 <td>মোঃ মসলিম উদ্দীন</td>
                 <td>৫০০</td>
-                <td></td>
+                <td>৫০০</td>
               </tr>
               <tr className="font-bold">
                 <th>৩</th>
                 <td>মোঃ সইফল</td>
                 <td>৪০০</td>
-                <td></td>
+                <td>৪০০</td>
               </tr>
               <tr className="font-bold">
                 <th>৪</th>
                 <td>মোঃ আনোয়ার</td>
                 <td>৩০০</td>
-                <td></td>
+                <td>৩০০</td>
               </tr>
               <tr className="font-bold">
                 <th>৫</th>
                 <td>মোঃ হাসিম</td>
                 <td>৩০০</td>
-                <td></td>
+                <td>৩০০</td>
               </tr>
               <tr className="font-bold">
                 <th>৬</th>
@@ -66,7 +71,7 @@ const Financing = () => {
                 <th>৭</th>
                 <td>মোঃ আঃ ওহাব</td>
                 <td>২০০০</td>
-                <td></td>
+                <td>২০০০</td>
               </tr>
               <tr className="font-bold">
                 <th>৮</th>
@@ -78,19 +83,19 @@ const Financing = () => {
                 <th>৯</th>
                 <td>মোঃ বিপ্লব</td>
                 <td>৫০০</td>
-                <td></td>
+                <td>৫০০</td>
               </tr>
               <tr className="font-bold">
                 <th>১০</th>
                 <td>মোঃ আনোয়ার</td>
                 <td>৫০০</td>
-                <td></td>
+                <td>৫০০</td>
               </tr>
               <tr className="font-bold">
                 <th>১১</th>
                 <td>মোঃ দবিরুল</td>
                 <td>৩০০</td>
-                <td></td>
+                <td>৩০০</td>
               </tr>
               <tr className="font-bold">
                 <th>১২</th>
@@ -108,7 +113,7 @@ const Financing = () => {
                 <th>১৪</th>
                 <td>মোঃ মুক্তা</td>
                 <td>৪০০</td>
-                <td></td>
+                <td>৪০০</td>
               </tr>
               <tr className="font-bold">
                 <th>১৫</th>
@@ -120,7 +125,7 @@ const Financing = () => {
                 <th>১৬</th>
                 <td>মোঃ ইলিয়াস</td>
                 <td>৫০০</td>
-                <td></td>
+                <td>৫০০</td>
               </tr>
               <tr className="font-bold">
                 <th>১৭</th>
@@ -144,13 +149,13 @@ const Financing = () => {
                 <th>২০</th>
                 <td>মোঃ শহিদ</td>
                 <td>৪০০</td>
-                <td></td>
+                <td>৪০০</td>
               </tr>
               <tr className="font-bold">
                 <th>২১</th>
                 <td>মোঃ আসরাফুল</td>
                 <td>৩০০</td>
-                <td></td>
+                <td>৩০০</td>
               </tr>
               <tr className="font-bold">
                 <th>২২</th>
@@ -174,25 +179,25 @@ const Financing = () => {
                 <th>২৫</th>
                 <td>মোঃ সমসের</td>
                 <td>৩০০</td>
-                <td></td>
+                <td>৩০০</td>
               </tr>
               <tr className="font-bold">
                 <th>২৬</th>
                 <td>মোঃ রশিদুল</td>
                 <td>৩০০</td>
-                <td></td>
+                <td>৩০০</td>
               </tr>
               <tr className="font-bold">
                 <th>২৭</th>
                 <td>মোঃ মহসিম</td>
                 <td>৩০০</td>
-                <td></td>
+                <td>৩০০</td>
               </tr>
               <tr className="font-bold">
                 <th>২৮</th>
                 <td>মোঃ রিপন</td>
                 <td>৩০০</td>
-                <td></td>
+                <td>৩০০</td>
               </tr>
               <tr className="font-bold">
                 <th>২৯</th>
@@ -204,31 +209,31 @@ const Financing = () => {
                 <th>৩০</th>
                 <td>মোঃ সইদুল</td>
                 <td>২০০</td>
-                <td></td>
+                <td>২০০</td>
               </tr>
               <tr className="font-bold">
                 <th>৩১</th>
                 <td>মোঃ মাসুদ</td>
                 <td>৩০০</td>
-                <td></td>
+                <td>৩০০</td>
               </tr>
               <tr className="font-bold">
                 <th>৩২</th>
                 <td>মোঃ নজরুল</td>
                 <td>৫০০</td>
-                <td></td>
+                <td>৫০০</td>
               </tr>
               <tr className="font-bold">
                 <th>৩৩</th>
                 <td>মোঃ আঃ রহমান</td>
                 <td>১০০০</td>
-                <td></td>
+                <td>১০০০</td>
               </tr>
               <tr className="font-bold">
                 <th>৩৪</th>
                 <td>মোঃ নুরুল</td>
                 <td>৩০০</td>
-                <td></td>
+                <td>৩০০</td>
               </tr>
               <tr className="font-bold">
                 <th>৩৫</th>
@@ -258,13 +263,13 @@ const Financing = () => {
                 <th>৩৯</th>
                 <td>মোঃ তরিকুল</td>
                 <td>২০০</td>
-                <td></td>
+                <td>২০০</td>
               </tr>
               <tr className="font-bold">
                 <th>৪০</th>
                 <td>মোঃ জিয়ারুল</td>
                 <td>৪০০</td>
-                <td></td>
+                <td>৪০০</td>
               </tr>
               <tr className="font-bold">
                 <th>৪১</th>

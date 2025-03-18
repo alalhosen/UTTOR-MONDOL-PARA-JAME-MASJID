@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-// import { FaMosque } from "react-icons/fa6";
 import { FaMosque } from "react-icons/fa6";
 
 const Navbar = () => {
