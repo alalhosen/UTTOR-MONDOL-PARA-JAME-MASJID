@@ -14,7 +14,14 @@ const Financing = () => {
         <div className="mt-9 mb-4">
           <p className="text-3xl bg-lime-800 w-full text-center font-extrabold text-orange-500 p-4 rounded-xl scroll-mx-0 hover:text-purple-500">
            বাৎসরিক টাকা আদায়ের হিসাব ২০২৫ঃ-
+           <br />
+           <p className="text-white text-2xl hover:text-red-500">
+            ০১/০১/২০২৫ - ৩১/১২/২০২৫ পর্যন্ত
+           </p>
           </p>
+        </div>
+        <div>
+          <p></p>
         </div>
 
         <div className="">
@@ -37,7 +44,7 @@ const Financing = () => {
           
               <tr className="font-bold">
                 <th>২</th>
-                <td>মোঃ সইফল+হাসিম+আনোয়ার</td>
+                <td>মোঃ সইফল + আনোয়ার + হাসিম</td>
                 <td>১৫০০</td>
                 <td>ফেব্রুয়ারী</td>
               </tr>
@@ -61,215 +68,31 @@ const Financing = () => {
                 <td>মে</td>
               </tr>
               <tr className="font-bold">
-                <th>৯</th>
+                <th>৬</th>
                 <td>মোঃ বিপ্লব</td>
-                <td>৫০০</td>
-                <td>৫০০</td>
+                <td>১৫০০</td>
+                <td>জুন</td>
               </tr>
               <tr className="font-bold">
-                <th>১০</th>
-                <td>মোঃ আনোয়ার</td>
-                <td>৫০০</td>
-                <td>৫০০</td>
+                <th>৭</th>
+                <td>মোঃ আনছারুল + আনোয়ার</td>
+                <td>১৫০০</td>
+                <td>জুলাই</td>
               </tr>
               <tr className="font-bold">
-                <th>১১</th>
+                <th>৮</th>
                 <td>মোঃ দবিরুল</td>
-                <td>৩০০</td>
-                <td>৩০০</td>
+                <td>১৫০০</td>
+                <td>আগস্ট</td>
               </tr>
               <tr className="font-bold">
-                <th>১২</th>
+                <th>৯</th>
                 <td>মোঃ সামসুল</td>
-                <td>৫০০</td>
-                <td>৫০০</td>
+                <td>১৫০০</td>
+                <td>সেপ্টেম্বর</td>
               </tr>
-              <tr className="font-bold">
-                <th>১৩</th>
-                <td>মোঃ এহসানুল</td>
-                <td>৫০০</td>
-                <td>৫০০</td>
-              </tr>
-              <tr className="font-bold">
-                <th>১৪</th>
-                <td>মোঃ মুক্তা</td>
-                <td>৪০০</td>
-                <td>৪০০</td>
-              </tr>
-              <tr className="font-bold">
-                <th>১৫</th>
-                <td>মোঃ ইসারুল</td>
-                <td>৫০০</td>
-                <td>৫০০</td>
-              </tr>
-              <tr className="font-bold">
-                <th>১৬</th>
-                <td>মোঃ ইলিয়াস</td>
-                <td>৫০০</td>
-                <td>৫০০</td>
-              </tr>
-              <tr className="font-bold">
-                <th>১৭</th>
-                <td>মোঃ মুনসুর</td>
-                <td>৫০০</td>
-                <td>৫০০</td>
-              </tr>
-              <tr className="font-bold">
-                <th>১৮</th>
-                <td>মোঃ শাহিন</td>
-                <td>৩০০</td>
-                <td>৩০০</td>
-              </tr>
-              <tr className="font-bold">
-                <th>১৯</th>
-                <td>মোঃ জালাল</td>
-                <td>২০০</td>
-                <td>২০০</td>
-              </tr>
-              <tr className="font-bold">
-                <th>২০</th>
-                <td>মোঃ শহিদ</td>
-                <td>৪০০</td>
-                <td>৪০০</td>
-              </tr>
-              <tr className="font-bold">
-                <th>২১</th>
-                <td>মোঃ আসরাফুল</td>
-                <td>৩০০</td>
-                <td>৩০০</td>
-              </tr>
-              <tr className="font-bold">
-                <th>২২</th>
-                <td>মোঃ আজমুল</td>
-                <td>৪০০</td>
-                <td>৪০০</td>
-              </tr>
-              <tr className="font-bold">
-                <th>২৩</th>
-                <td>মোঃ মেজারুল</td>
-                <td>৫০০</td>
-                <td>৫০০</td>
-              </tr>
-              <tr className="font-bold">
-                <th>২৪</th>
-                <td>মোঃ ইসমাইল</td>
-                <td>৫০০</td>
-                <td>৫০০</td>
-              </tr>
-              <tr className="font-bold">
-                <th>২৫</th>
-                <td>মোঃ সমসের</td>
-                <td>৩০০</td>
-                <td>৩০০</td>
-              </tr>
-              <tr className="font-bold">
-                <th>২৬</th>
-                <td>মোঃ রশিদুল</td>
-                <td>৩০০</td>
-                <td>৩০০</td>
-              </tr>
-              <tr className="font-bold">
-                <th>২৭</th>
-                <td>মোঃ মহসিম</td>
-                <td>৩০০</td>
-                <td>৩০০</td>
-              </tr>
-              <tr className="font-bold">
-                <th>২৮</th>
-                <td>মোঃ রিপন</td>
-                <td>৩০০</td>
-                <td>৩০০</td>
-              </tr>
-              <tr className="font-bold">
-                <th>২৯</th>
-                <td>মোঃ কামরুল</td>
-                <td>৫০০</td>
-                <td>৫০০</td>
-              </tr>
-              <tr className="font-bold">
-                <th>৩০</th>
-                <td>মোঃ সইদুল</td>
-                <td>২০০</td>
-                <td>২০০</td>
-              </tr>
-              <tr className="font-bold">
-                <th>৩১</th>
-                <td>মোঃ মাসুদ</td>
-                <td>৩০০</td>
-                <td>৩০০</td>
-              </tr>
-              <tr className="font-bold">
-                <th>৩২</th>
-                <td>মোঃ নজরুল</td>
-                <td>৫০০</td>
-                <td>৫০০</td>
-              </tr>
-              <tr className="font-bold">
-                <th>৩৩</th>
-                <td>মোঃ আঃ রহমান</td>
-                <td>১০০০</td>
-                <td>১০০০</td>
-              </tr>
-              <tr className="font-bold">
-                <th>৩৪</th>
-                <td>মোঃ নুরুল</td>
-                <td>৩০০</td>
-                <td>৩০০</td>
-              </tr>
-              <tr className="font-bold">
-                <th>৩৫</th>
-                <td>মোঃ সোহেল</td>
-                <td>২০০</td>
-                <td></td>
-              </tr>
-              <tr className="font-bold">
-                <th>৩৬</th>
-                <td>মোঃ আবদুল্লা</td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr className="font-bold">
-                <th>৩৭</th>
-                <td>মোঃ মোমিন</td>
-                <td>২০০</td>
-                <td></td>
-              </tr>
-              <tr className="font-bold">
-                <th>৩৮</th>
-                <td>মোঃ নিশান</td>
-                <td>২০০</td>
-                <td></td>
-              </tr>
-              <tr className="font-bold">
-                <th>৩৯</th>
-                <td>মোঃ তরিকুল</td>
-                <td>২০০</td>
-                <td>২০০</td>
-              </tr>
-              <tr className="font-bold">
-                <th>৪০</th>
-                <td>মোঃ জিয়ারুল</td>
-                <td>৪০০</td>
-                <td>৪০০</td>
-              </tr>
-              <tr className="font-bold">
-                <th>৪১</th>
-                <td>মোঃ নিজাম</td>
-                <td>৩০০</td>
-                <td>৩০০</td>
-              </tr>
-              <tr className="font-bold">
-                <th>৪২</th>
-                <td>মোঃ আমান</td>
-                <td>২০০</td>
-                <td></td>
-              </tr>
-              <tr className="font-bold">
-                <th>৪৩</th>
-                <td>মোঃ সোহাগ</td>
-                <td></td>
-                <td></td>
-              </tr>
+             
+          
               <tr className="font-extrabold text-xl text-green-500">
                 <th>৪৪</th>
                 <td>মোট </td>
