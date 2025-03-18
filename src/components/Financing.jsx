@@ -16,7 +16,7 @@ const Financing = () => {
            বাৎসরিক টাকা আদায়ের হিসাব ২০২৫ঃ-
           </p>
         </div>
-<p>কাজ চল</p>
+
         <div className="">
           <table className="table text-center mt-6 mb-32">
             <thead>
