@@ -4,7 +4,7 @@ const Ramadan = () => {
       <div className="text-center text-amber-600 pl-6 lg:pl-12">
         <div className="flex space-x-3 font-extrabold text-center mt-36">
           <p>১৪৪৬ হিজরি</p>
-          <p className="px-24 underline">আল্লাহ মহান</p>
+          <p className="px-24 underline hover:text-4xl">আল্লাহ মহান</p>
           <p>২০২৫ খ্রিস্টাব্দ</p>
         </div>
       </div>

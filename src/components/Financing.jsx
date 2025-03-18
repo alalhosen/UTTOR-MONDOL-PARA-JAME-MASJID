@@ -12,7 +12,7 @@ const Financing = () => {
 
       <div>
         <div className="mt-9 mb-4">
-          <p className="text-3xl bg-lime-800 w-full text-center font-extrabold text-orange-500 p-4 rounded-xl scroll-mx-0 hover:text-slate-100">
+          <p className="text-3xl bg-lime-800 w-full text-center font-extrabold text-orange-500 p-4 rounded-xl scroll-mx-0 hover:text-purple-500">
            বাৎসরিক টাকা আদায়ের হিসাব ২০২৫ঃ-
           </p>
         </div>
@@ -24,56 +24,41 @@ const Financing = () => {
                 <th className="text-2xl text-purple-400">ক্রমিক নং</th>
                 <th className="text-2xl text-purple-400">নাম</th>
                 <th className="text-2xl text-purple-400">টাকার পরিমান</th>
+                <th className="text-2xl text-purple-400">মাসের নামে</th>
               </tr>
             </thead>
             <tbody className="">
               <tr className="font-bold">
                 <th>১</th>
-                <td>মোঃ আমজাদ</td>
-                <td>১০০০</td>
-                <td>১০০০</td>
+                <td>মোঃ আমজাদ + মসলিম</td>
+                <td>১৫০০</td>
+                <td>জানুয়ারী</td>
               </tr>
+          
               <tr className="font-bold">
                 <th>২</th>
-                <td>মোঃ মসলিম উদ্দীন</td>
-                <td>৫০০</td>
-                <td>৫০০</td>
+                <td>মোঃ সইফল+হাসিম+আনোয়ার</td>
+                <td>১৫০০</td>
+                <td>ফেব্রুয়ারী</td>
               </tr>
+             
               <tr className="font-bold">
                 <th>৩</th>
-                <td>মোঃ সইফল</td>
-                <td>৪০০</td>
-                <td>৪০০</td>
+                <td>মোঃ মাসুম</td>
+                <td>১৫০০</td>
+                <td>মার্চ</td>
               </tr>
               <tr className="font-bold">
                 <th>৪</th>
-                <td>মোঃ আনোয়ার</td>
-                <td>৩০০</td>
-                <td>৩০০</td>
+                <td>মোঃ আঃ ওহাব</td>
+                <td>১৫০০</td>
+                <td>এপ্রিল</td>
               </tr>
               <tr className="font-bold">
                 <th>৫</th>
-                <td>মোঃ হাসিম</td>
-                <td>৩০০</td>
-                <td>৩০০</td>
-              </tr>
-              <tr className="font-bold">
-                <th>৬</th>
-                <td>মোঃ মাসুম</td>
-                <td>৫০০</td>
-                <td>৫০০</td>
-              </tr>
-              <tr className="font-bold">
-                <th>৭</th>
-                <td>মোঃ আঃ ওহাব</td>
-                <td>২০০০</td>
-                <td>২০০০</td>
-              </tr>
-              <tr className="font-bold">
-                <th>৮</th>
-                <td>মোঃ নাজিম</td>
-                <td>৭০০</td>
-                <td>৭০০</td>
+                <td>মোঃ নিজাম+নাজিম</td>
+                <td>১৫০০</td>
+                <td>মে</td>
               </tr>
               <tr className="font-bold">
                 <th>৯</th>
