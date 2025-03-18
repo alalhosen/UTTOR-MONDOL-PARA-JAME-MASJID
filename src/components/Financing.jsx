@@ -24,7 +24,6 @@ const Financing = () => {
                 <th className="text-2xl text-purple-400">ক্রমিক নং</th>
                 <th className="text-2xl text-purple-400">নাম</th>
                 <th className="text-2xl text-purple-400">টাকার পরিমান</th>
-                <th className="text-2xl text-purple-400">জমা</th>
               </tr>
             </thead>
             <tbody className="">
