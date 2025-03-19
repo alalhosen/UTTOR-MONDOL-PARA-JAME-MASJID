@@ -123,9 +123,9 @@ const Financing = () => {
             <table className="table text-center mt-6 mb-32">
               <thead>
                 <tr className="">
-                  <th className="text-2xl text-purple-400">ক্রমিক নং</th>
-                  <th className="text-2xl text-purple-400">নাম</th>
-                  <th className="text-2xl text-purple-400">টাকার পরিমান</th>
+                  <th className="text-2xl text-purple-800">ক্রমিক নং</th>
+                  <th className="text-2xl text-purple-800">নাম</th>
+                  <th className="text-2xl text-purple-800">টাকার পরিমান</th>
                 </tr>
               </thead>
               <tbody className="">
@@ -221,158 +221,64 @@ const Financing = () => {
                 </tr>
                 <tr className="font-bold">
                   <th>১৯</th>
-                  <td>মোঃ </td>
-                  <td>২০০</td>
-                  <td>২০০</td>
+                  <td>মোঃ মুসা</td>
+                  <td>৫০০</td>
                 </tr>
                 <tr className="font-bold">
                   <th>২০</th>
-                  <td>মোঃ </td>
-                  <td>৪০০</td>
-                  <td>৪০০</td>
+                  <td>মোঃ নিশান</td>
+                  <td>৩০০</td>
                 </tr>
                 <tr className="font-bold">
                   <th>২১</th>
-                  <td>মোঃ ফুল</td>
-                  <td>৩০০</td>
-                  <td>৩০০</td>
+                  <td>মোঃ কামরুল</td>
+                  <td>৫০০</td>
                 </tr>
                 <tr className="font-bold">
                   <th>২২</th>
-                  <td>মোঃ ল</td>
-                  <td>৪০০</td>
-                  <td>৪০০</td>
+                  <td>মোঃ রমজান</td>
+                  <td>৩০০</td>
                 </tr>
                 <tr className="font-bold">
                   <th>২৩</th>
-                  <td>মোঃ ল</td>
-                  <td>৫০০</td>
-                  <td>৫০০</td>
+                  <td>মোঃ শরিফ</td>
+                  <td>৪০০</td>
                 </tr>
                 <tr className="font-bold">
                   <th>২৪</th>
-                  <td>মোঃ ইল</td>
-                  <td>৫০০</td>
-                  <td>৫০০</td>
+                  <td>মোঃ সোহাগ</td>
+                  <td>৪০০</td>
                 </tr>
                 <tr className="font-bold">
                   <th>২৫</th>
-                  <td>মোঃ র</td>
-                  <td>৩০০</td>
+                  <td>মোঃ সইদুল</td>
                   <td>৩০০</td>
                 </tr>
                 <tr className="font-bold">
                   <th>২৬</th>
-                  <td>মোঃ ল</td>
-                  <td>৩০০</td>
+                  <td>মোঃ মাসুদ</td>
                   <td>৩০০</td>
                 </tr>
                 <tr className="font-bold">
                   <th>২৭</th>
-                  <td>মোঃ ম</td>
-                  <td>৩০০</td>
-                  <td>৩০০</td>
+                  <td>মোঃ নজরুল</td>
+                  <td>৫০০</td>
                 </tr>
                 <tr className="font-bold">
                   <th>২৮</th>
-                  <td>মোঃ </td>
-                  <td>৩০০</td>
-                  <td>৩০০</td>
+                  <td>মোঃ আঃ রহমান</td>
+                  <td>৮০০</td>
                 </tr>
                 <tr className="font-bold">
                   <th>২৯</th>
-                  <td>মোঃ ল</td>
-                  <td>৫০০</td>
-                  <td>৫০০</td>
-                </tr>
-                <tr className="font-bold">
-                  <th>৩০</th>
-                  <td>মোঃ ল</td>
-                  <td>২০০</td>
-                  <td>২০০</td>
-                </tr>
-                <tr className="font-bold">
-                  <th>৩১</th>
-                  <td>মোঃ </td>
-                  <td>৩০০</td>
-                  <td>৩০০</td>
-                </tr>
-                <tr className="font-bold">
-                  <th>৩২</th>
-                  <td>মোঃ ল</td>
-                  <td>৫০০</td>
-                  <td>৫০০</td>
-                </tr>
-                <tr className="font-bold">
-                  <th>৩৩</th>
-                  <td>মোঃ হমান</td>
-                  <td>১০০০</td>
-                  <td>১০০০</td>
-                </tr>
-                <tr className="font-bold">
-                  <th>৩৪</th>
-                  <td>মোঃ </td>
-                  <td>৩০০</td>
-                  <td>৩০০</td>
-                </tr>
-                <tr className="font-bold">
-                  <th>৩৫</th>
-                  <td>মোঃ </td>
-                  <td>২০০</td>
-                  <td></td>
-                </tr>
-                <tr className="font-bold">
-                  <th>৩৬</th>
-                  <td>মোঃ ল্লা</td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr className="font-bold">
-                  <th>৩৭</th>
-                  <td>মোঃ </td>
-                  <td>২০০</td>
-                  <td></td>
-                </tr>
-                <tr className="font-bold">
-                  <th>৩৮</th>
-                  <td>মোঃ </td>
-                  <td>২০০</td>
-                  <td></td>
-                </tr>
-                <tr className="font-bold">
-                  <th>৩৯</th>
-                  <td>মোঃ ল</td>
-                  <td>২০০</td>
-                  <td>২০০</td>
-                </tr>
-                <tr className="font-bold">
-                  <th>৪০</th>
-                  <td>মোঃ ল</td>
-                  <td>৪০০</td>
+                  <td>মোঃ জিয়ারুল</td>
                   <td>৪০০</td>
                 </tr>
-                <tr className="font-bold">
-                  <th>৪১</th>
-                  <td>মোঃ </td>
-                  <td>৩০০</td>
-                  <td>৩০০</td>
-                </tr>
-                <tr className="font-bold">
-                  <th>৪২</th>
-                  <td>মোঃ </td>
-                  <td>২০০</td>
-                  <td></td>
-                </tr>
-                <tr className="font-bold">
-                  <th>৪৩</th>
-                  <td>মোঃ </td>
-                  <td></td>
-                  <td></td>
-                </tr>
+                
                 <tr className="font-extrabold text-xl text-green-500">
                   <th></th>
                   <td>মোট টাকা</td>
-                  <td>১৮২০০</td>
+                  <td>১২৭০০</td>
                   <td></td>
                 </tr>
               </tbody>
