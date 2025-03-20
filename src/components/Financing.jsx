@@ -105,12 +105,11 @@ const Financing = () => {
         </div>
         <div className="border-2 border-dotted border-black "></div>
 
-
         {/* Yearly taka adai  Yearly taka adai  Yearly taka adai   */}
 
         <div>
           <div className="mt-9 mb-4">
-            <p className="text-3xl bg-lime-400 w-full text-center font-extrabold text-orange-500 p-4 rounded-xl scroll-mx-0 hover:text-slate-100">
+            <p className="text-3xl bg-lime-400 w-full text   -center font-extrabold text-orange-500 p-4 rounded-xl scroll-mx-0 hover:text-slate-100">
               বাৎসরিক টাকার আদায়ের হিসাব ২০২৫ঃ-
               <br />
               <p className="text-white text-2xl hover:text-red-500">
@@ -120,7 +119,7 @@ const Financing = () => {
           </div>
 
           <div>
-            <table className="table text-center mt-6 mb-32">
+            <table className="table mt-6 mb-32 text-left">
               <thead>
                 <tr className="">
                   <th className="text-2xl text-purple-800">ক্রমিক নং</th>
@@ -128,7 +127,7 @@ const Financing = () => {
                   <th className="text-2xl text-purple-800">টাকার পরিমান</th>
                 </tr>
               </thead>
-              <tbody className="">
+              <tbody className="text-left">
                 <tr className="font-bold">
                   <th>১</th>
                   <td>মোঃ আমজাদ</td>
@@ -274,7 +273,7 @@ const Financing = () => {
                   <td>মোঃ জিয়ারুল</td>
                   <td>৪০০</td>
                 </tr>
-                
+
                 <tr className="font-extrabold text-xl text-green-500">
                   <th></th>
                   <td>মোট টাকা</td>

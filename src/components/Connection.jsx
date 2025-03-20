@@ -1,13 +1,19 @@
 const Connection = () => {
   return (
     <div>
-      <div className="hero bg-base-200 min-h-screen mt-6">
-        <div className="hero-content flex-col lg:flex-row-reverse">
-          <img src="" className="max-w- rounded-full shadow-xl bg-lime-300" />
-          <div>
-            <h1 className="text-6xl font-bold mb-8">ইমাম</h1>
+      <div
+        className="hero min-h-screen"
+        style={{
+          backgroundImage:
+            "url(https://i.ibb.co.com/d0Rv2Vb1/sudais-muhaikali-imam-kaba-20230813132614-jpg.jpg)"
+        }}
+      >
+        <div className="hero-overlay"></div>
+        <div className="hero-content text-neutral-content text-center">
+          <div className="max-w-md">
+            <h1 className="mb-5 text-5xl font-bold">ইমাম</h1>
             <h2 className="text-4xl">হাফেজ মোঃ হাবিবুল্লা ইসলাম</h2>
-            <p className="py-6 bg-red-200 rounded-2xl px-2 my-8">
+            <p className="mb-5 py-6 px-2 my-8">
               একজন ভাল ইমাম হতে হলে যা যা গুণাগুণ থাকা দরকার- সব গুণাগুণ তিনার
               মধ্যে আছে।
             </p>
@@ -15,19 +21,29 @@ const Connection = () => {
           </div>
         </div>
       </div>
-      {/* <div>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/AxkRp3yHiVU?si=K97uN05XGxYwmP_Z"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-      </div> */}
+
     </div>
   );
 };
 
 export default Connection;
+
+
+
+
+
+
+{/* <div className="hero bg-base-200 min-h-screen mt-6">
+  <div className="hero-content flex-col lg:flex-row-reverse">
+    <img src="" className="max-w- rounded-full shadow-xl bg-lime-300" />
+    <div>
+      <h1 className="text-6xl font-bold mb-8">ইমাম</h1>
+      <h2 className="text-4xl">হাফেজ মোঃ হাবিবুল্লা ইসলাম</h2>
+      <p className="py-6 bg-red-200 rounded-2xl px-2 my-8">
+        একজন ভাল ইমাম হতে হলে যা যা গুণাগুণ থাকা দরকার- সব গুণাগুণ তিনার
+        মধ্যে আছে।
+      </p>
+      <button className="btn btn-primary">বিস্তারিত জানতে</button>
+    </div>
+  </div>
+</div> */}
