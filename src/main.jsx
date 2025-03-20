@@ -9,6 +9,7 @@ import Gallery from "./components/Gallery.jsx";
 import Home from "./components/Home.jsx";
 import Ramadan from "./components/Ramadan.jsx";
 import Financing from "./components/Financing.jsx";
+import Home2Fitra from "./components/Home2Fitra.jsx";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
+      },
+      {
+        path: "/src/components/Home2Fitra.jsx",
+        element: <Home2Fitra></Home2Fitra>
       },
       {
         path: "/রমজান",

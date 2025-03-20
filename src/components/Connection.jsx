@@ -98,7 +98,7 @@ const Connection = () => {
               যারা সম্প্রদায়ের চাহিদা পূরণে এবং ইসলামের মূল্যবোধের প্রচারে
               আগ্রহী হওয়া।
             </p>
-            <button className="btn btn-primary">Get Started</button>
+            {/* <button className="btn btn-primary">Get Started</button> */}
           </div>
         </div>
       </div>

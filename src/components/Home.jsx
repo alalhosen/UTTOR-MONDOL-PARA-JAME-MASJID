@@ -118,7 +118,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Card  Card  Card  Card  Card  Card   */}
+      {/* Hero card Ramaden er bidhinised   */}
       <div className="hero bg-gray-200 my-20 rounded-2xl">
         <div>
           <p className="text-lg lg:text-3xl p-4 lg:p-8 font-bold text-center bg-pink-200 mt-8 rounded-full">
@@ -243,6 +243,12 @@ const Home = () => {
             >
               <button className="p-4 text-xl">ফিতরার দেওয়ার নিয়ম</button>
             </NavLink>
+
+            <div className="btn btn-primary">
+              <NavLink to="/src/components/Home2Fitra.jsx">
+                <button>ফিতরা কি, কেন ?</button>
+              </NavLink>
+            </div>
           </div>
         </div>
       </div>
