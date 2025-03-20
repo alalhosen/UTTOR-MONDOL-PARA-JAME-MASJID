@@ -155,7 +155,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="btn btn-primary rounded-2xl">
+          <div className="btn btn-primary rounded-2xl mb-4">
             <NavLink to="https://www.amarbarta.com.bd/religion-and-life/">
               <button>আরো জানতে .....</button>
             </NavLink>
@@ -163,12 +163,12 @@ const Home = () => {
         </div>
       </div>
 
-      {/* card single vedio   card single vedio   card single vedio   */}
+      {/* card single vedio  add card single vedio add  card single vedio   */}
       <div className=" lg:flex">
         <div className="hero bg-base-200 min-h-screen bg-red-200 rounded-tr-full  ">
           <div className="hero-content text-center">
             <div className="max-w-md">
-              <h1 className="text-5xl font-bold">Hello there</h1>
+              <h1 className="text-5xl font-bold">Hello Muslim</h1>
               <p className="py-6 text-xl">
                 রোজা নিয়ে ১৫ টি জরুরি প্রশ্নের উত্তর
               </p>
@@ -185,7 +185,7 @@ const Home = () => {
         <div className="hero bg-sky-200 min-h-screen rounded-ss-full">
           <div className="hero-content text-center">
             <div className="max-w-md">
-              <h1 className="text-5xl font-bold">Hello there</h1>
+              <h1 className="text-5xl font-bold">Hello Muslim</h1>
               <p className="py-6 text-xl">
                 কী কারণে রোজা ভেঙ্গে যায়? রোজা নিয়ে আরও কিছু প্রশ্নের জবাব
               </p>
@@ -200,7 +200,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* card hero quran  card hero quran   */}
+      {/* card hero quran read card hero quran   */}
       <div className="hero bg-red-100 min-h-screen mb-24 rounded-2xl mt-12">
         <div className="hero-content flex-col lg:flex-row mb-12 mt-8">
           <img
@@ -230,25 +230,17 @@ const Home = () => {
             <p className="py-6">
               যাকাতুল ফিতর বা ফিতরা,ফেতরা কি কেনো ও সংক্ষেপে |
             </p>
-
-            <NavLink
-              className="btn btn-primary rounded-2xl mb-4"
-              to="https://www.youtube.com/watch?v=tOJAmVa0bB0"
-            >
-              <button className="p-4 text-xl">ফিতরা কি, কেন ?</button>
-            </NavLink>
+            <div className="btn btn-primary m-4 text-xl">
+              <NavLink to="/src/components/Home2Fitra.jsx">
+                <button>ফিতরা কি, কেন ?</button>
+              </NavLink>
+            </div>
             <NavLink
               className="btn btn-secondary rounded-2xl"
               to="https://www.youtube.com/watch?v=rj6daq2k07A"
             >
               <button className="p-4 text-xl">ফিতরার দেওয়ার নিয়ম</button>
             </NavLink>
-
-            <div className="btn btn-primary">
-              <NavLink to="/src/components/Home2Fitra.jsx">
-                <button>ফিতরা কি, কেন ?</button>
-              </NavLink>
-            </div>
           </div>
         </div>
       </div>
