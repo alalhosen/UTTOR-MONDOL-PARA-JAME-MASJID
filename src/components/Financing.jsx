@@ -109,7 +109,7 @@ const Financing = () => {
 
         <div>
           <div className="mt-9 mb-4">
-            <p className="text-3xl bg-lime-400 w-full text   -center font-extrabold text-orange-500 p-4 rounded-xl scroll-mx-0 hover:text-slate-100">
+            <p className="text-3xl bg-lime-400 w-full text-center font-extrabold text-orange-500 p-4 rounded-xl scroll-mx-0 hover:text-slate-100">
               বাৎসরিক টাকার আদায়ের হিসাব ২০২৫ঃ-
               <br />
               <p className="text-white text-2xl hover:text-red-500">
@@ -119,7 +119,7 @@ const Financing = () => {
           </div>
 
           <div>
-            <table className="table mt-6 mb-32 text-left">
+            <table className="table mt-6 mb-32 text-center">
               <thead>
                 <tr className="">
                   <th className="text-2xl text-purple-800">ক্রমিক নং</th>
@@ -127,7 +127,7 @@ const Financing = () => {
                   <th className="text-2xl text-purple-800">টাকার পরিমান</th>
                 </tr>
               </thead>
-              <tbody className="text-left">
+              <tbody className="text-center">
                 <tr className="font-bold">
                   <th>১</th>
                   <td>মোঃ আমজাদ</td>
