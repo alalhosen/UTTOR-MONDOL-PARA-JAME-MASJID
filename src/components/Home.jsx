@@ -1,3 +1,5 @@
+import React from "react";
+import mosqueVideo from "../assets/mosqueVideo.mp4";
 import { NavLink } from "react-router-dom";
 
 const Home = () => {
@@ -26,6 +28,12 @@ const Home = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      {/* Home bg video Home bg video Home bg video  */}
+
+      <div className="main">
+        <video src={mosqueVideo.mp4} />
       </div>
 
       {/* Home page slide     Home page slide */}
