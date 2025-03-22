@@ -10,6 +10,30 @@ const Home = () => {
         className="hero min-h-screen mt-44 rounded-xl "
         style={{
           backgroundImage:
+            "url(https://i.ibb.co.com/GfvLTmCc/IMG-20250321-133120.jpg)",
+        }}
+      >
+        <div className="hero-content text-neutral-content text-center -mt-20">
+          <div className="max-w-md">
+            <h1 className="text-gray-200 mb-5 text-5xl font-bold">
+              Welcome to our website
+            </h1>
+            <p className="text-xl font-bold text-lime-300">
+              May Allah grant all of us the taufiq to be a masque.
+            </p>
+            <div className="btn btn-primary rounded-2xl">
+              <NavLink to="https://www.youtube.com/watch?v=NZGuFf2lRDE ">
+                <button>আযান শুনুন .....</button>
+              </NavLink>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Home page single hero img */}
+      <div
+        className="hero min-h-screen mt-44 rounded-xl "
+        style={{
+          backgroundImage:
             "url(https://i.ibb.co.com/hFXzcBwS/IMG-20250302-134402.jpg)",
         }}
       >
@@ -32,9 +56,9 @@ const Home = () => {
 
       {/* Home bg video Home bg video Home bg video  */}
 
-      <div className="main">
+      {/* <div className="main">
         <video src={mosqueVideo.mp4} />
-      </div>
+      </div> */}
 
       {/* Home page slide     Home page slide */}
 
