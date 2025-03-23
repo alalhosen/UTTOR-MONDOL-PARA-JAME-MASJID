@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const Home = () => {
   return (
     <div className="px-4">
-      {/* Home page single hero img */}
+      {/* Home page Emam img */}
       <div
         className="hero min-h-screen mt-44 rounded-xl "
         style={{
@@ -29,7 +29,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      {/* Home page single hero img */}
+      {/* Home page Mosque img */}
       <div
         className="hero min-h-screen mt-44 rounded-xl "
         style={{
