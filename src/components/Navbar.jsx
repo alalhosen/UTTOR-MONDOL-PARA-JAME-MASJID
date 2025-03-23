@@ -50,7 +50,7 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <a className="text-xl lg:text-3xl text-green-500 font-extrabold bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text animate-gradient">
+        <a className="text-xl lg:text-3xl text-green-500 font-extrabold bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text animate-gradient bg-300%">
           <span className="text-red-600 text-xl lg:text-4xl pt-2">উ</span>ত্তর
           মন্ডল পাড়া জামে মসজিদ
         </a>
