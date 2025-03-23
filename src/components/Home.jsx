@@ -40,14 +40,16 @@ const Home = () => {
         <div className="hero-content text-neutral-content text-center -mt-20">
           <div className="max-w-md">
             <h1 className="text-gray-200 mb-5 text-5xl font-bold">
-              Welcome to our website
+            আল্লাহ্‌ মহান
             </h1>
-            <p className="text-xl font-bold text-lime-300">
-              May Allah grant all of us the taufiq to be a masque.
+            <p className="text-xl font-bold text-lime-200">
+              আল্লাহ্‌ তা'আলার ভয়ে আপনি যা কিছু ছেড়ে দিবেন, আল্লাহ্‌ আপনাকে তার চেয়ে উত্তম কিছু অবশ্যই দান করবেন।
             </p>
-            <div className="btn btn-primary rounded-2xl">
+            <div className="btn btn-secondary rounded-2xl">
               <NavLink to="https://www.youtube.com/watch?v=NZGuFf2lRDE ">
-                <button>আযান শুনুন .....</button>
+                <button>নামাজের
+                   জন্য আসুন
+                </button>
               </NavLink>
             </div>
           </div>
