@@ -46,7 +46,7 @@ const Home = () => {
               আল্লাহ্‌ তা'আলার ভয়ে আপনি যা কিছু ছেড়ে দিবেন, আল্লাহ্‌ আপনাকে তার চেয়ে উত্তম কিছু অবশ্যই দান করবেন।
             </p>
             <div className="btn btn-secondary rounded-2xl">
-              <NavLink to="https://www.youtube.com/watch?v=NZGuFf2lRDE ">
+              <NavLink>
                 <button>নামাজের
                    জন্য আসুন
                 </button>
