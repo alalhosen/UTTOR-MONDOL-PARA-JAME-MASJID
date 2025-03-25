@@ -14,7 +14,7 @@ const Connection = () => {
           <div className="max-w-md">
             <h1 className="mb-5 text-5xl font-bold">ইমাম</h1>
             <h2 className="text-4xl text-orange-300">
-              হাফেজ মোঃ হাবিবুল্লাহ মেজবা
+              হাফেজ মোঃ হাবিবুল্লাহ মেজবাহ
             </h2>
             <p className="mb-5 py-6 px-2 my-8">
               একজন ভাল ইমাম হতে হলে যা যা গুণাগুণ থাকা দরকার- সব গুণাগুণ তিনার

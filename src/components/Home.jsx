@@ -29,6 +29,60 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      {/* 1111111111111111111111111111111 */}
+      {/* For TSX uncomment the commented types below */}
+      <div className="grid grid-flow-col gap-5 text-center auto-cols-max">
+        <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+          <span className="countdown font-mono text-5xl">
+            <span
+              style={{ "--value": 15 } /* as React.CSSProperties */}
+              aria-live="polite"
+              aria-label={counter}
+            >
+              15
+            </span>
+          </span>
+          days
+        </div>
+        <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+          <span className="countdown font-mono text-5xl">
+            <span
+              style={{ "--value": 10 } /* as React.CSSProperties */}
+              aria-live="polite"
+              aria-label={counter}
+            >
+              10
+            </span>
+          </span>
+          hours
+        </div>
+        <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+          <span className="countdown font-mono text-5xl">
+            <span
+              style={{ "--value": 24 } /* as React.CSSProperties */}
+              aria-live="polite"
+              aria-label={counter}
+            >
+              24
+            </span>
+          </span>
+          min
+        </div>
+        <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+          <span className="countdown font-mono text-5xl">
+            <span
+              style={{ "--value": 59 } /* as React.CSSProperties */}
+              aria-live="polite"
+              aria-label={counter}
+            >
+              59
+            </span>
+          </span>
+          sec
+        </div>
+      </div>
+      {/* 11111111111111111111111111  */}
       {/* Home page Mosque img */}
       <div
         className="hero min-h-screen mt-44 rounded-xl "
@@ -40,16 +94,15 @@ const Home = () => {
         <div className="hero-content text-neutral-content text-center -mt-20">
           <div className="max-w-md">
             <h1 className="text-gray-200 mb-5 text-5xl font-bold">
-            আল্লাহ্‌ মহান
+              আল্লাহ্‌ মহান
             </h1>
             <p className="text-xl font-bold text-lime-200">
-              আল্লাহ্‌ তা'আলার ভয়ে আপনি যা কিছু ছেড়ে দিবেন, আল্লাহ্‌ আপনাকে তার চেয়ে উত্তম কিছু অবশ্যই দান করবেন।
+              আল্লাহ্‌ তা'আলার ভয়ে আপনি যা কিছু ছেড়ে দিবেন, আল্লাহ্‌ আপনাকে তার
+              চেয়ে উত্তম কিছু অবশ্যই দান করবেন।
             </p>
             <div className="btn btn-secondary rounded-2xl">
               <NavLink>
-                <button>নামাজের
-                   জন্য আসুন
-                </button>
+                <button>নামাজের জন্য আসুন</button>
               </NavLink>
             </div>
           </div>
