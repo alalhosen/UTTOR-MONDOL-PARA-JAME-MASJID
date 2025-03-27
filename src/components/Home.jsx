@@ -75,6 +75,7 @@ const Home = () => {
       {/* <div className="main">
         <video src={mosqueVideo.mp4} />
       </div> */}
+      
       {/* Home page slide     Home page slide */}
       <div className="carousel w-[100%] h-[100%]  mt-20 rounded-2xl">
         <div id="slide1" className="carousel-item relative w-full">
@@ -134,6 +135,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+
       {/* Hero single card img  Hero single card img   */}
       <div className="mt-12">
         <h2
@@ -162,6 +164,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+
       {/* Hero card Ramaden er bidhinised   */}
       <div className="hero bg-gray-200 my-20 rounded-2xl">
         <div>
@@ -206,6 +209,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+
       {/* card single vedio  add card single vedio add  card single vedio   */}
       <div className=" lg:flex">
         <div className="hero bg-base-200 min-h-screen bg-red-200 rounded-tr-full  ">
@@ -242,6 +246,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+
       {/* card hero quran read card hero quran   */}
       <div className="hero bg-red-100 min-h-screen mb-24 rounded-2xl mt-12">
         <div className="hero-content flex-col lg:flex-row mb-12 mt-8">
@@ -263,6 +268,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+
       {/* single card fitra adai  single card fitra adai   */}
       <div className="hero bg-base-200 min-h-screen mb-12">
         <div className="hero-content text-center">
