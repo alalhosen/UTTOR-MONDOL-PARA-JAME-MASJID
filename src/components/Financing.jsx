@@ -576,7 +576,7 @@ const Financing = () => {
             <tr>
               <th>ইমামকে প্রদান টাকা ডানে hover=</th>
               <th className="font-extrabold text-xl text-white hover:text-lime-400">
-                মোট প্রদেয় টাকা= ১০০০০+৭৫০০=১৭৫০০
+                মোট প্রদেয় টাকা= ১০০০০+৭৫০০+৫০০=১৮০০০
               </th>
             </tr>
           </table>
