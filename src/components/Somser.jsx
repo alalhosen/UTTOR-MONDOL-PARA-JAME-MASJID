@@ -6,8 +6,8 @@ const Somser = () => {
         <p></p>
       </div>
       <div>
-        <p className="text-xl font-extrabold  text-lime-400">.....</p>
-        <p></p>
+        <p className="text-xl font-extrabold  text-lime-400">..... ইট চুরি</p>
+        <p>আমরা বাড়িতে না সমসের আমাদের ইটগুলো নিয়ে যাওয়ার সময় দাদা দেখে ফেলে। সে নাকি তার মায়ের ঘরের সিঁড়ি বানাবে। মানুষকে দেখিয়ে মাটি দিয়ে সিঁড়ি মেপে দেয়।</p>
       </div>
       <div>
         <p className="text-xl font-extrabold  text-lime-400">.....</p>
