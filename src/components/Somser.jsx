@@ -7,6 +7,10 @@ const Somser = () => {
       </div>
       <div>
         <p className="text-xl font-extrabold  text-lime-400">.....</p>
+        <p></p>
+      </div>
+      <div>
+        <p className="text-xl font-extrabold  text-lime-400">.....</p>
         <p>আমাদের বাড়ির পশ্চিমে আমাদের ঝিঙ্গল গাছ এবং সমসেরের কিছু আম গাছ বিক্রি করে কুকুরডাঙ্গীর এনার কাছে। সমসের এবং তাজকিরা মিলে আমের ডালগুলো পাতার ভিতর লুকিয়ে রাখে। আমাদের গাছের একটি তাদের খড়ি ঘড়ে লুকিয়ে রাখে সমসের।</p>
       </div>
       <div>
@@ -22,7 +26,7 @@ const Somser = () => {
       </div>
 
       <div>
-        <p className="text-xl font-extrabold  text-lime-400">২৩ মার্চ, ২০২৫</p>
+        <p className="text-xl font-extrabold  text-lime-400">২৩ মার্চ, ২০২৫ </p>
         <p>
           ২৩ মার্চ ২২শে রমজান রবিবার বিকালে তাজকিরা, সমসের ও তার মা হালেমর ঝগড়া
           হলে হালেমা ঐদিন ওদের ইফতারি খায়নি। সোমবার থেকে জার্শি গরুর জ্বর হয়।

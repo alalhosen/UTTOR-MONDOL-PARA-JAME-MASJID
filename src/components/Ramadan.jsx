@@ -202,11 +202,10 @@ const Ramadan = () => {
                 <td>৩০ মার্চ</td>
                 <td>মোঃ সইদুল</td>
               </tr>
-              <tr className="font-bold">
-                <th>৩০ রমজান</th>
+              <tr className="font-extrabold text-red-400">
+                <th>পবিত্র ঈদের নামাজ</th>
                 <td>সোমবার</td>
                 <td>৩১ মার্চ</td>
-                <td>মোঃ </td>
               </tr>
             </tbody>
           </table>
