@@ -7,7 +7,7 @@ const Somser = () => {
       </div>
       <div>
         <p className="text-xl font-extrabold  text-lime-400">..... ভুট্টার খড়ি চুরি</p>
-        <p></p>
+        <p>বাড়ির পশ্চিমে তাজকিরা ভুট্টার খড়ি চুরি করতে গিয়ে ধরা পরে।</p>
       </div>
       <div>
         <p className="text-xl font-extrabold  text-lime-400">..... ইট চুরি</p>
