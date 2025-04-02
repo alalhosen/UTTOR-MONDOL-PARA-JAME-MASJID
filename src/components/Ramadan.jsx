@@ -206,6 +206,7 @@ const Ramadan = () => {
                 <th>পবিত্র ঈদের নামাজ</th>
                 <td>সোমবার</td>
                 <td>৩১ মার্চ</td>
+                <td>ঈদুল ফিতর</td>
               </tr>
             </tbody>
           </table>
