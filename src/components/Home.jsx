@@ -1,6 +1,7 @@
 import React from "react";
 import mosqueVideo from "../assets/mosqueVideo.mp4";
 import { NavLink } from "react-router-dom";
+// import wave from "../assets/wave.svg"; 
 
 const Home = () => {
   return (
@@ -75,7 +76,7 @@ const Home = () => {
       {/* <div className="main">
         <video src={mosqueVideo.mp4} />
       </div> */}
-      
+
       {/* Home page slide     Home page slide */}
       <div className="carousel w-[100%] h-[100%]  mt-20 rounded-2xl">
         <div id="slide1" className="carousel-item relative w-full">
@@ -136,7 +137,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Hero single card img  Hero single card img   */}
+      {/* Hero single card img Dowa  kobul  Hero single card img   */}
       <div className="mt-12">
         <h2
           className="text-center p-6 font-extrabold text-2xl lg:text-4xl
