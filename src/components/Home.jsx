@@ -3,12 +3,13 @@ import mosqueVideo from "../assets/mosqueVideo.mp4";
 import { NavLink } from "react-router-dom";
 // import wave from "../assets/wave.svg"; 
 
+
 const Home = () => {
   return (
     <div className="px-4">
       {/* Home page Emam img */}
       <div
-        className="hero min-h-screen mt-44 rounded-xl "
+        className="hero min-h-screen mt-44 rounded-xl"
         style={{
           backgroundImage:
             "url(https://i.ibb.co.com/GfvLTmCc/IMG-20250321-133120.jpg)",

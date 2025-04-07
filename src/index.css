@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.img{
+  width: 100%;
+}
+
 
 
 .animate-gradient {
