@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.img{
-  width: 100%;
-}
-
 
 
 .animate-gradient {
@@ -14,7 +10,15 @@
     -moz-animation: animatedgradient 6s ease infinite alternate;
     animation: animatedgradient 6s ease infinite alternate;
   }
+
+
   
+.fitra{
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+
+
   @keyframes animatedgradient {
     0% {
       background-position: 0% 50%;
