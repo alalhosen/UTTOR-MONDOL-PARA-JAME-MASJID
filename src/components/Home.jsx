@@ -1,8 +1,7 @@
 import React from "react";
 import mosqueVideo from "../assets/mosqueVideo.mp4";
 import { Link, NavLink } from "react-router-dom";
-// import wave from "../assets/wave.svg"; 
-
+// import wave from "../assets/wave.svg";
 
 const Home = () => {
   return (
@@ -182,6 +181,7 @@ const Home = () => {
               <h1 className="text-2xl lg:text-3xl text-center">
                 রোজার বিধিনিষেধ
               </h1>
+             
               <div>
                 <ul className="underline py-6 text-purple-600 text-2xl">
                   বিধিনিষেধঃ-

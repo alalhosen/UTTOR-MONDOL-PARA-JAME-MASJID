@@ -8,7 +8,6 @@ const Ramadan = () => {
           <p>২০২৫ খ্রিস্টাব্দ</p>
         </div>
       </div>
-
       {/* Ramadane er ifter er talika */}
       <div>
         <div className="mt-9 mb-4">
@@ -18,7 +17,7 @@ const Ramadan = () => {
         </div>
 
         <div className="">
-          <table className="table text-center">
+          <table className="table text-center emam">
             <thead>
               <tr>
                 <th className="text-2xl text-lime-600">রমজান</th>
@@ -212,9 +211,7 @@ const Ramadan = () => {
           </table>
         </div>
       </div>
-
       <div className="border-dotted border-2 border-gray-500 w-full mx-4 my-4"></div>
-
       <div>
         {/* 1111111111111111111111111111111111111111111111 */}
 
@@ -273,6 +270,8 @@ const Ramadan = () => {
           </div>
         </div>
 
+
+
         {/* 333333333333333333333333333333333 */}
         <div className="mt-12 border-none lg:border-solid border-2 border-purple-200 rounded-2xl">
           <p className="text-5xl text-center mt-8 text-gray-600 font-extrabold">
@@ -299,6 +298,8 @@ const Ramadan = () => {
           </div>
         </div>
       </div>
+   
+     
     </div>
   );
 };
