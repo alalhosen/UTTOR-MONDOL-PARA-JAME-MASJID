@@ -34,6 +34,12 @@ const Somser = () => {
           ভিতর লুকিয়ে রাখে। আমাদের গাছের একটি তাদের খড়ি ঘড়ে লুকিয়ে রাখে সমসের।
         </p>
       </div>
+
+      <div>
+        <p className="text-xl font-extrabold  text-lime-400">.....আলমের আম চুরি</p>
+        <p></p>
+      </div>
+
       <div>
         <p className="text-xl font-extrabold  text-lime-400">
           .......তাজকিরার ছেলে মারা যায়
@@ -41,7 +47,9 @@ const Somser = () => {
         <p>তাজকিরার একটি ছেলে জন্ম হওয়ার কিছুদিন পরে মারা যায়।</p>
       </div>
       <div>
-        <p className="text-xl font-extrabold  text-lime-400">.....তাজকিরার ছেলে পেটে মারা যায়</p>
+        <p className="text-xl font-extrabold  text-lime-400">
+          .....তাজকিরার ছেলে পেটে মারা যায়
+        </p>
         <p></p>
       </div>
 
