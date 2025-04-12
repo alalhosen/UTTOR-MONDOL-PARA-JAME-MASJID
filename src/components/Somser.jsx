@@ -37,7 +37,7 @@ const Somser = () => {
 
       <div>
         <p className="text-xl font-extrabold  text-lime-400">.....আলমের আম চুরি</p>
-        <p></p>
+        <p>আলমের বাগানের আম চুরি করে তাজকিরা।</p>
       </div>
 
       <div>
