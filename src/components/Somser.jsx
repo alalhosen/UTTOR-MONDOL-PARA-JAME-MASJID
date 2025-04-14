@@ -59,7 +59,7 @@ const Somser = () => {
       </div>
 
       <div>
-        <p className="text-xl font-extrabold  text-lime-400">২০২৪</p>
+        <p className="text-xl font-extrabold  text-lime-400">হালেমার বরদোয়া ২০২৪</p>
         <p>
           কোন এক কারণে তাজকিরা ও হালেমার মধ্যে ঝগড়া হলে হালেমা বলে তোর পেটের
           বাচ্চা পেটেয় থাকবে। ঠিক তাই হয়েছে। পেটের বাচ্চা পেটেয় মারা যায়।
