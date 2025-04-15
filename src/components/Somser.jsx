@@ -79,6 +79,7 @@ const Somser = () => {
       <div>
         <p className="text-xl font-extrabold  text-lime-400"></p>
         <p></p>
+        <p>১৫/০৪/২৫ মঙ্গলবার। আগাটারি থেকে মাহাত নিয়ে আসে।</p>
       </div>
     </div>
   );
