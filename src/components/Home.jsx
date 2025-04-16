@@ -8,7 +8,7 @@ const Home = () => {
     <div className="px-4">
       {/* Home page Emam img */}
       <div
-        className="hero min-h-screen mt-44 rounded-xl"
+        className="hero aspect-video mt-44 rounded-xl"
         style={{
           backgroundImage:
             "url(https://i.ibb.co.com/GfvLTmCc/IMG-20250321-133120.jpg)",
