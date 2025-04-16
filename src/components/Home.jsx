@@ -30,7 +30,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <figure className="diff aspect-16/9" tabIndex={0}>
+
+      {/* <figure className="diff aspect-16/9" tabIndex={0}>
         <div className="diff-item-1" role="img">
           <img
             alt="daisy"
@@ -44,9 +45,11 @@ const Home = () => {
           />
         </div>
         <div className="diff-resizer"></div>
-      </figure>
+      </figure> */}
+      
       {/* 1111111111111111111111111111111 */}
       {/* 11111111111111111111111111  */}
+
       {/* Home page Mosque img */}
       <div
         className="hero min-h-screen mt-44 rounded-xl "
