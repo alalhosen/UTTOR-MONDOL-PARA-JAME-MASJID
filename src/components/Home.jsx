@@ -16,7 +16,7 @@ const Home = () => {
       >
         <div className="hero-content text-neutral-content text-center -mt-20">
           <div className="max-w-md">
-            <h1 className="text-gray-200 mb-5 text-5xl font-bold">
+            <h1 className="text-gray-200 md:mb-5  md:text-5xl text-2xl font-bold">
               Welcome to our website
             </h1>
             <p className="text-xl font-bold text-lime-300">
@@ -52,18 +52,18 @@ const Home = () => {
 
       {/* Home page Mosque img */}
       <div
-        className="hero min-h-screen mt-44 rounded-xl "
+        className="hero aspect-video mt-44 rounded-xl "
         style={{
           backgroundImage:
             "url(https://i.ibb.co.com/hFXzcBwS/IMG-20250302-134402.jpg)",
         }}
       >
-        <div className="hero-content text-neutral-content text-center -mt-20">
+        <div className="hero-content text-neutral-content text-center -mt-8">
           <div className="max-w-md">
-            <h1 className="text-gray-200 mb-5 text-5xl font-bold">
+            <h1 className="text-yellow-300 md:mb-5 md:text-5xl text-lg font-bold">
               আল্লাহ্‌ মহান
             </h1>
-            <p className="text-xl font-bold text-lime-200">
+            <p className="md:text-xl text-sm md:font-bold text-lime-200">
               আল্লাহ্‌ তা'আলার ভয়ে আপনি যা কিছু ছেড়ে দিবেন, আল্লাহ্‌ আপনাকে তার
               চেয়ে উত্তম কিছু অবশ্যই দান করবেন।
             </p>
