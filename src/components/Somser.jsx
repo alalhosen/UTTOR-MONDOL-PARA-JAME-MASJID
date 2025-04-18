@@ -55,7 +55,7 @@ const Somser = () => {
         <p className="text-xl font-extrabold  text-lime-400">
           .....তাজকিরার ছেলে পেটে মারা যায়
         </p>
-        <p></p>
+        <p>তাজকিরার একটি ছেলে গর্ভাবস্থায় মারা যায়।</p>
       </div>
 
       <div>
