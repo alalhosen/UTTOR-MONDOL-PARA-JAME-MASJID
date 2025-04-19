@@ -49,7 +49,7 @@ const Somser = () => {
         <p className="text-xl font-extrabold  text-lime-400">
           .......তাজকিরার ছেলে মারা যায়
         </p>
-        <p>তাজকিরার একটি ছেলে জন্ম হওয়ার কিছুদিন পরে মারা যায়।</p>
+        <p>তাজকিরার একটি ছেলে জন্ম হওয়ার কিছুদিন পরে মারা যায়। আমি ঐ সময় রানীশংকৈল ছিলাম।</p>
       </div>
       <div>
         <p className="text-xl font-extrabold  text-lime-400">
