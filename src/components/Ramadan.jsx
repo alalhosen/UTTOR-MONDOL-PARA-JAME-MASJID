@@ -241,7 +241,7 @@ const Ramadan = () => {
             </div>
           </div>
         </div>
-        <div className="border-dashed border-2 border-purple-500 w-full mx-4 my-4"></div>
+        <div className="border-dashed border-2 border-purple-400 w-full mx-4 my-4"></div>
 
         {/* 222222222222222222222222222222222222222222222 */}
         <div className=" border-none mt-16 m-2 lg:border-dotted border-4  border-lime-400 rounded-2xl">
