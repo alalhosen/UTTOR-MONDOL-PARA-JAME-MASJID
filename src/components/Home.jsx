@@ -31,28 +31,10 @@ const Home = () => {
         </div>
       </div>
 
-      {/* <figure className="diff aspect-16/9" tabIndex={0}>
-        <div className="diff-item-1" role="img">
-          <img
-            alt="daisy"
-            src="https://img.daisyui.com/images/stock/photo-1560717789-0ac7c58ac90a.webp"
-          />
-        </div>
-        <div className="diff-item-2" role="img" tabIndex={0}>
-          <img
-            alt="daisy"
-            src="https://img.daisyui.com/images/stock/photo-1560717789-0ac7c58ac90a-blur.webp"
-          />
-        </div>
-        <div className="diff-resizer"></div>
-      </figure> */}
-      
-      {/* 1111111111111111111111111111111 */}
-      {/* 11111111111111111111111111  */}
 
       {/* Home page Mosque img */}
       <div
-        className="hero aspect-video mt-44 rounded-xl "
+        className="hero aspect-video mt-20 rounded-xl "
         style={{
           backgroundImage:
             "url(https://i.ibb.co.com/hFXzcBwS/IMG-20250302-134402.jpg)",
@@ -75,10 +57,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      {/* Home bg video Home bg video Home bg video  */}
-      {/* <div className="main">
-        <video src={mosqueVideo.mp4} />
-      </div> */}
+      
 
       {/* Home page slide     Home page slide */}
       <div className="carousel w-[100%] h-[100%]  mt-20 rounded-2xl">
