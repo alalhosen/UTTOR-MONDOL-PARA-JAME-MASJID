@@ -257,7 +257,7 @@ const Home = () => {
       <div className="hero bg-base-200 min-h-screen mb-12">
         <div className="hero-content text-center">
           <div className="max-w-md">
-            <h1 className="text-5xl font-bold fitra">ফিতরা আদায়ের সঠিক নিয়ম</h1>
+            <h1 className="text-5xl font-bold fitra animate-gradient bg-300%">ফিতরা আদায়ের সঠিক নিয়ম</h1>
             <p className="py-6">
               যাকাতুল ফিতর বা ফিতরা,ফেতরা কি কেনো ও সংক্ষেপে |
             </p>
