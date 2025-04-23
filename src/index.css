@@ -10,7 +10,9 @@
     -moz-animation: animatedgradient 6s ease infinite alternate;
     animation: animatedgradient 6s ease infinite alternate;
   }
-
+.navbg{
+  background-image:linear-gradient(40deg,pink,white,purple,yellow,teal,white,fuchsia,blue, red)
+}
 
 
   
