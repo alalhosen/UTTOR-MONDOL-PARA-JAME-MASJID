@@ -6,6 +6,7 @@ const Financing = () => {
           <p>১৪৪৬ হিজরি</p>
           <p className="px-24 underline">আল্লাহ মহান</p>
           <p>২০২৫ খ্রিস্টাব্দ</p>
+          <button className="btn btn-neutral">Electric Bill</button>
         </div>
       </div>
 
