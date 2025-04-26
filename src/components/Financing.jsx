@@ -8,9 +8,13 @@ const Financing = () => {
           <p>১৪৪৬ হিজরি</p>
           <p className="px-24 underline">আল্লাহ মহান</p>
           <p>২০২৫ খ্রিস্টাব্দ</p>
-          <NavLink to="./ElectricBill.jsx">
+
+
+          {/* <NavLink to="./ElectricBill.jsx">
           <button className="btn btn-neutral hover:bg-purple-200  hover:text-black">Electric Bill</button>
-          </NavLink>
+          </NavLink> */}
+
+
         </div>
       </div>
 
