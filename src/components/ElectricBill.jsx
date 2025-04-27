@@ -95,8 +95,8 @@ const ElectricBill = () => {
 
               <tr className="font-extrabold text-xl text-green-500">
                 <th></th>
-                <td>মোট টাকা</td>
-                <td>১৩৫০০</td>
+                <td>মোট বিল</td>
+                <td>000000</td>
                 <td></td>
               </tr>
             </tbody>
