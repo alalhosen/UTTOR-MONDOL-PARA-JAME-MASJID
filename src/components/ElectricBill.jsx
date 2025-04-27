@@ -74,6 +74,24 @@ const ElectricBill = () => {
                 <td>১৫০০</td>
                 <td>সেপ্টেম্বর</td>
               </tr>
+              <tr className="font-bold">
+                <th>১০</th>
+                <td>মোঃ </td>
+                <td>১৫০০</td>
+                <td>অক্টোবর</td>
+              </tr>
+              <tr className="font-bold">
+                <th>১১</th>
+                <td>মোঃ </td>
+                <td>১৫০০</td>
+                <td>নভেম্বর</td>
+              </tr>
+              <tr className="font-bold">
+                <th>১২</th>
+                <td>মোঃ </td>
+                <td>১৫০০</td>
+                <td>ডিসেম্বর</td>
+              </tr>
 
               <tr className="font-extrabold text-xl text-green-500">
                 <th></th>
