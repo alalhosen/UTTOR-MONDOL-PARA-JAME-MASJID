@@ -4,7 +4,7 @@ const ElectricBill = () => {
     return (
         <div>
             <div>
-                <p className='text-3xl text-red-300'>মাসিক বিদ্যুৎ বিল পরিশোধকারী ব্যক্তিগণের নামের তালিকাঃ-</p>
+                <p className='text-3xl text-red-300 bg-purple-300'>মাসিক বিদ্যুৎ বিল পরিশোধকারী ব্যক্তিগণের নামের তালিকাঃ-</p>
             </div>
             <div>
             <div className="">
